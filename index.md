@@ -124,5 +124,3 @@
 This document serves as a comprehensive guide to JavaScript concepts, covering everything from fundamentals to advanced topics. Suitable for beginners and experienced developers alike!
 
 🔗 Stay updated with modern JavaScript practices and deepen your knowledge by exploring each topic further.
-
-

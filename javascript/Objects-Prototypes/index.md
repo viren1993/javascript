@@ -1,0 +1,11 @@
+## 3. Objects & Prototypes
+- **Prototypes & Inheritance**
+  - `__proto__` vs `prototype`
+- **Constructor Functions**
+- **Classes (ES6+)**
+  - `class`, `constructor`, methods
+  - Static Methods, Private Fields (`#field`)
+  - `extends`, `super()`, Method Overriding
+- **Objects Deep Dive**
+  - Property descriptors (`get`, `set`, `enumerable`, `configurable`)
+  - `Object.create()`, `Object.assign()`

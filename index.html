@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>My First Heading</h1>
+  <p>My first paragraph.</p>
+</body>
+
+<script>
+  // odd and even number sorting data 
+  // Input: nums = [4,2,5,7]
+  // Output: [4,5,2,7]
+
+  // sorting array even and odd number
+
+  // function oddeven(array) {
+  //   let even = [];
+  //   let odd = [];
+
+  //   for (let num of array) {
+  //     num % 2 == 0 ? even.push(num) : odd.push(num);
+  //   }
+
+
+  //   let result = [];
+  //   let i = 0;
+  //   let j = 0;
+
+  //   while (i < even.length || j < odd.length) {
+  //     if (i < even.length) result.push(even[i++]);
+  //     if (j < even.length) result.push(odd[j++]);
+  //   }
+  //   console.log(result, 'result');
+
+  //   return result;
+  // }
+
+  // console.log(oddeven([4, 2, 5, 7]));
+
+
+  // same as above but using filter method nagative and postive number
+  function rearrangeArray(arr) {
+    let positives = arr.filter(num => num >= 0); // Extract positive numbers
+    let negatives = arr.filter(num => num < 0);  // Extract negative numbers
+
+    let result = [];
+    let i = 0, j = 0;
+
+    // Merge them alternatively
+    while (i < positives.length || j < negatives.length) {
+      if (i < positives.length) result.push(positives[i++]);
+      if (j < negatives.length) result.push(negatives[j++]);
+    }
+
+    return result;
+  }
+  
+  console.log(rearrangeArray([-1, 2, -3, 4, -5, 6]));
+
+  // Output: [2, -1, 4, -3, 6, -5]
+
+  // Input: init = 5, calls = ["increment","reset","decrement"]
+  // Output: [6,5,4]
+  // Explanation:
+  // const counter = createCounter(5);
+  // counter.increment(); // 6
+  // counter.reset(); // 5
+  // counter.decrement(); // 4
+
+  function createCounter(init) {
+    let current = init;
+
+    return {
+      increment: () => ++current,
+      decrement: () => --current,
+      reset: () => (current = init),
+    };
+
+  };
+
+  const counter = createCounter(5)
+  counter.increment(); // 6
+  counter.reset(); // 5
+  counter.decrement(); // 4
+
+  // Input: arr = [1,2,3], fn = function plusone(n) { return n + 1; }
+  // Output: [2,3,4]
+  // Explanation:
+  // const newArray = map(arr, plusone); // [2,3,4]
+  // The function increases each value in the array by one. 
+
+  var map = function (arr, fn) {
+    const result = []
+    for (let i = 0; i < arr.length; i++) {
+      result.push(fn(arr[i], i))
+    }
+
+    return result;
+  };
+
+  function plusone(n) { return n + 1; }
+  const arr = [1, 2, 3]
+  const newArray = map(arr, plusone); // [2,3,4]
+  console.log(newArray, 'newArray')
+
+
+//   Input: arr = [0,10,20,30], fn = function greaterThan10(n) { return n > 10; }
+// Output: [20,30]
+// Explanation:
+// const newArray = filter(arr, fn); // [20, 30]
+// The function filters out values that are not greater than 10
+
+  var filter = function (arr, fn) {
+    const result = []
+    for (let i = 0; i < arr.length; i++) {
+      if (fn(arr[i], i)) {
+        result.push(arr[i]);
+      }
+    }
+
+    return result;
+  };
+
+  fn = function greaterThan10(n) { return n > 10; }
+  const arr1 = [0, 10, 20, 30]
+  const newArray1 = filter(arr1, fn); // [20, 30]
+  console.log(newArray1, 'newArray')
+
+  async function mainFunction() {
+  console.log('Start a');
+  await mainFunction2(); // waiting for async function to complete
+  console.log('Start b'); // logs: Result from asyncFunction1
+}
+
+async function mainFunction2() {
+  console.log('mainFunction2');
+}
+console.log('statc code');
+mainFunction();
+console.log('statc edn');
+
+const users = [
+  { name: 'Alice', age: 25, role: 'admin' },
+  { name: 'Bob', age: 30, role: 'user' },
+  { name: 'Charlie', age: 22, role: 'admin' },
+  { name: 'David', age: 35, role: 'user' },
+  { name: 'Eve', age: 28, role: 'user' },
+];
+
+const sortedUsers = users.sort((a, b) => a.age - b.age);
+// console.log(sortedUsers, 'sortedUsers');
+
+const groupedByRole = sortedUsers.reduce((acc, user) => {
+  // console.log(acc, 'acc');
+  const { role, ...userWithoutRole } = user;
+
+  if (!acc[role]) {
+    console.log(!acc[role], '!acc[role]');
+    acc[role] = [];
+  }
+
+  acc[role].push(userWithoutRole);
+
+  return acc;
+}, {});
+
+console.log(groupedByRole);
+
+function solution(number) {
+  if (number < 0) return 0;
+
+  let sum = 0;
+  for (let i = 0; i < number; i++) {
+    if (i % 3 === 0 || i % 5 === 0) {
+      sum += i;
+    }
+  }
+
+  return sum;
+}
+
+console.log(solution(10)); // Output: 23
+
+function duplicateCount(text) {
+  const lowerText = text.toLowerCase();
+  const charCount = {};
+
+  for (const char of lowerText) {
+    charCount[char] = (charCount[char] || 0) + 1;
+  }
+
+  let duplicates = 0;
+  for (const count of Object.values(charCount)) {
+    if (count > 1) duplicates++;
+  }
+
+  return duplicates;
+}
+
+console.log(duplicateCount('aabBcde'), 'aabBcde'); // Output: 2 (a and 1)
+console.log(duplicateCount('ABBA'), 'ABBA'); // Output: 2 (a and b)
+console.log(duplicateCount('abcde'), 'abcde'); // Output: 0
+console.log(duplicateCount('aabBcde'), 'aabBcde');
+
+const input = [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]];
+function openOrSenior(data){
+  return data.map(([age, handicap]) => (age > 54 && handicap > 7) ? 'Senior' : 'Open');
+}
+const output = openOrSenior(input);
+console.log(output); // ["Open", "Open", "Senior", "Open", "Open", "Senior"]
+</script>
+
+</html>
