@@ -53,7 +53,6 @@ function outer() {
   function inner() {
     console.log(name, 'inner function call)
   }
-
   return inner()
 }
 

@@ -19,8 +19,25 @@ A Promise is in one of these states:
 - fulfilled: meaning that the operation was completed successfully.
 - rejected: meaning that the operation failed.
 
+const myPromise = new Promise((resolve, reject) => {
+  const success = true;
 
--1. Callbacks & Callback Hell
+  if (success) {
+    resolve("✅ Promise resolved!");
+  } else {
+    reject("❌ Promise rejected!");
+  }
+});
+
+myPromise
+  .then((message) => {
+    console.log("Then:", message);
+  })
+  .catch((error) => {
+    console.log("Catch:", error);
+  });
+
+- 1. Callbacks & Callback Hell
 A callback is a function passed as an argument to another function, executed after the main function completes.
 
 function fetchData(callback) {
@@ -31,7 +48,6 @@ function fetchData(callback) {
 }
 
 fetchData(() => console.log("Processing Data"));
-
 
 Callback Hell
 Occurs when multiple nested callbacks make code unreadable and difficult to debug.
@@ -77,7 +93,6 @@ A Promise represents a value that may be available now, later, or never. It has 
 Pending → Initial state, operation not complete.
 Fulfilled → Operation completed successfully.
 Rejected → Operation failed.
-
 
 const myPromise = new Promise((resolve, reject) => {
   let success = true;

@@ -70,12 +70,3 @@ How do you ensure cross-browser compatibility in your web projects?
 Ensuring cross-browser compatibility is a critical aspect of my frontend development process. Throughout my career, I have implemented various strategies to achieve this. Firstly, I always start by using semantic HTML and CSS, which are widely supported across different browsers. I also utilize CSS frameworks like Bootstrap and Tailwind, which are designed to be responsive and compatible with multiple browsers. During the development phase, I regularly test my applications on various browsers, including Chrome, Firefox, Safari, and Edge, to identify any discrepancies in rendering. For instance, while working on the CrSIP project, I encountered issues with CSS styles not displaying correctly in older versions of Internet Explorer. To address this, I used CSS prefixes and fallbacks to ensure that the design remained consistent. Additionally, I leverage tools like BrowserStack to simulate different environments and test my applications effectively. I also stay updated with the latest web standards and best practices, which helps me anticipate potential compatibility issues. By prioritizing cross-browser compatibility, I ensure that users have a seamless experience regardless of their browser choice.
 
 
-
-
-
-
-
-
-
-
-
