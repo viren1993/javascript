@@ -65,7 +65,7 @@
 // 4 - State Management (All abount data)
 // - state / props
 // - props driling
-// - contex  - data pass on 1 component to another component
+// - contex - data pass on 1 component to another component
 
 // React State Management (All About Data)
 // State management in React helps handle and pass data between components. There are multiple ways to manage state:

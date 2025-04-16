@@ -11,7 +11,6 @@
 
 Functional programming is a programming paradigm based on pure functions and avoiding shared state, mutable data, and side effects. It emphasizes immutability, first-class functions, and higher-order functions to improve modularity, testability, and parallelism.
 
-
 1. Pure Functions
 
 Always produces the same output for the same input.

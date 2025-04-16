@@ -174,7 +174,6 @@ function Person(name) {
 const john = new Person("John");
 console.log(john.name); // John
 
-
 Arrow Functions & this
 
 Arrow functions do not have their own this; they inherit it from their surrounding scope.
@@ -192,7 +191,6 @@ const obj = {
 obj.normalFunc(); // Alice
 obj.arrowFunc(); // undefined
 
-
 Arrow functions are useful in callbacks to preserve this.
 
 function Counter() {
@@ -203,7 +201,6 @@ function Counter() {
   }, 1000);
 }
 const c = new Counter(); // Increments count correctly
-
 
 ### **Interview Questions**
 

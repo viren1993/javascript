@@ -172,7 +172,6 @@ console.log("Start");
 setTimeout(() => console.log("Executed after 2s"), 2000);
 console.log("End");
 
-
 setInterval()
 Executes a function repeatedly at specified intervals.
 
@@ -183,11 +182,9 @@ const intervalId = setInterval(() => {
 }, 1000);
 
 queueMicrotask()
-
 console.log("Start");
 
 queueMicrotask(() => console.log("Microtask Executed"));
-
 console.log("End");
 
 // Output:
