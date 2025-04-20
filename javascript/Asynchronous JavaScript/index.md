@@ -10,7 +10,6 @@
 
   above topic send me all in each every details interview related and theory related all this topic
 
-
 - Promises is object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 
 A Promise is in one of these states:
@@ -139,7 +138,6 @@ async function fetchData() {
 }
 
 fetchData().then((data) => console.log(data)); // "Data Loaded"
-
 
 ### **5. Event Loop**
 

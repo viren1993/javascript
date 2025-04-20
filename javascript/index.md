@@ -180,9 +180,9 @@ Object Literal
 - Polymorphism - Poly is many - morphism sawaroop - 1 method mutiple roop just like console log
 
 - What is the Factory Pattern?
-  A pattern that creates objects without exposing the instantiation logic.
+    A pattern that creates objects without exposing the instantiation logic.
 - What is the Singleton Pattern?
-  A pattern that ensures only one instance of a class is created.
+    A pattern that ensures only one instance of a class is created.
 
 1. Garbage Collection
    JavaScript has automatic memory management through Garbage Collection (GC). The Mark-and-Sweep algorithm removes unused objects from memory.
@@ -255,3 +255,5 @@ console.log(obj1.address.city);  // "New York" (unchanged)
 - Iterators & Generators (`function*`, `yield`)
 - Proxy & Reflection (`Proxy`, `Reflect`)re it is declared in the code.
 - callback hell - multiple nested callbacks make
+
+
