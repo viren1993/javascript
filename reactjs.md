@@ -15,7 +15,6 @@
 
 - Understand how React renders and updates UI
 - Master component communication (props/state)
-
 ---
 
 ## ⚛️ Module 2: Hooks (Deep Dive)
@@ -159,7 +158,7 @@
 
 ### ✅ System Design:
 
-- Build Scalable Apps
+- Build Scalable Apps   
 - Handle Large Data (Virtual Scroll)
 - Real-time Updates (WebSockets)
 - Lazy Load + Modular Architecture
@@ -174,4 +173,4 @@
 - Mentoring Juniors
 - Choosing Redux vs Context
 - Performance Debugging Examples
-- Leading Teams/Features
+- Leading Teams/Features                                 
