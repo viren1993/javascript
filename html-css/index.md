@@ -19,7 +19,7 @@
 8. What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
 - id can at time 1 used class samem value mutiple time
 
-10. Describe HTML layout structure.
+10. Describe HTML layout    .
   <header>: Stores the starting information about the web page.
   <footer>: Represents the last section of the page.
   <nav>: The navigation menu of the HTML page.

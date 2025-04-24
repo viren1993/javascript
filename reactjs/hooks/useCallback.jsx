@@ -28,4 +28,3 @@ export default Parent;
 // 📌 Key Points:
 // Prevents unnecessary re-renders of child components.
 // Useful in performance optimization.
-

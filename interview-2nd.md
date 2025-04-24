@@ -17,8 +17,6 @@
 - CSS Flexbox, Grid, Positioning
 - CSS specificity, inheritance, box model
 
-
-
 ## 📚 Resources for Study
 - [React Docs](https://reactjs.org/docs/getting-started.html)
 - [Redux Toolkit Docs](https://redux-toolkit.js.org/)

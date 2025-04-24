@@ -174,3 +174,72 @@
 - Choosing Redux vs Context
 - Performance Debugging Examples
 - Leading Teams/Features                                 
+
+
+---------------------------------------
+react interview preparation
+hooks
+- useState 
+- useEffect
+- useContext
+- useReducer
+- useCallback
+- useMemo
+- useRef
+above all are the hooks with the example
+
+/ hight order component
+- HOC is a function that takes a component and returns a new component
+- HOC is a pattern where a function takes a component and returns a new component
+ what, why , how , why ---- with practical example
+
+ 3 - life cycle method of component -- 3 face mount, update, unmount
+ -- call component
+-- render component
+
+4 - State Management (All abount data)
+- state / props
+- props driling
+- contex  - data pass on 1 component to another component
+
+5 - Redux
+- redux - global state management - why, what, how, why - with practical example
+/ rtk - redux toolkit
+- redux thunk - middleware
+- redux saga - middleware
+- redux persist - middleware
+
+6 - Custom Hooks
+- when, why, how - with practical example
+- best answe why used custom hook code clean - matainablity - reusability - readability
+
+7 - lazy loading
+- code splitting - why, what, how, why - with practical example
+- code chunking
+- code suspense
+
+8 - vartual dom
+- reconciliation
+- diffing algorithm
+- react fiber
+- react concurrent mode
+
+ssr - csr - ssg - isr - why, what, how, why - with practical example
+
+9 - react router
+RBAC - role based access control
+- how can protect the route
+
+
+10 - react testing
+- jest
+
+async task
+- api call
+- events
+
+
+use effect how can work behind the scene
+
+
+
