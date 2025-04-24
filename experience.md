@@ -1,7 +1,6 @@
 - Can you describe a challenging problem you faced in a React project and how you resolved it?
 - Can you describe your experience with React.js and how you have used it in previous projects?
 
-
 🔹 React Hooks Usage in Projects
 Question:
 What kinds of React Hooks have you used in your projects, and why?
@@ -29,15 +28,10 @@ Sample Answer:
 I use multiple strategies:
 
 Component Memoization: with React.memo and useMemo
-
 Lazy loading: with React.lazy and Suspense for route/code splitting
-
 Virtual DOM optimizations: via selective rendering and list virtualization using React Window
-
 Profiling: Using React DevTools Profiler to detect bottlenecks
-
 Dependency checks: Minimizing unnecessary dependencies in useEffect
-
 Minified bundles: via Next.js or Webpack for tree shaking
 
 How do you ensure cross-browser compatibility when developing frontend applications using ReactJS? Can you provide an example of a challenge you faced and how you resolved it?

@@ -530,6 +530,10 @@ State is read-only (only changed by dispatching actions)
 Changes are made with pure functions (reducers)
 
 
+1. Difference between class component and function component
+2. State and props
+3. How to use lifecycle methods in function component
+
 
 
 
