@@ -31,7 +31,7 @@ console.log(typeof {}); // "object"
 console.log(typeof []); // "object"
 console.log(typeof function(){}); // "function"
 
-⚠ Common Issue: typeof null returns "object" due to a long-standing bug in JavaScript.
+Common Issue: typeof null returns "object" due to a long-standing bug in JavaScript.
 
 ### **1.4 Type Coercion (== vs ===)**
 Type coercion happens when JavaScript implicitly converts one data type to another.
@@ -45,7 +45,6 @@ console.log(null == undefined); // true (they are loosely equal)
 
 == (Loose Equality) allows type coercion.
 === (Strict Equality) does not allow type coercion.
-
 
 #### **2. Scopes & Scope Chain** 
 Scope determines the accessibility of variables in JavaScript.

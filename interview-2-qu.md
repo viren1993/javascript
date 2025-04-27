@@ -534,6 +534,13 @@ Changes are made with pure functions (reducers)
 2. State and props
 3. How to use lifecycle methods in function component
 
+Lifecycle Methods in Function Components (Using Hooks)
+Class Component Lifecycle	Function Component Equivalent
+componentDidMount	useEffect(() => {}, [])
+componentDidUpdate	useEffect(() => {}, [deps])
+componentWillUnmount	useEffect(() => { return () => {} }, [])
+shouldComponentUpdate	React.memo() or useMemo
+
 
 
 

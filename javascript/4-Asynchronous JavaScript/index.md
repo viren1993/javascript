@@ -144,10 +144,30 @@ fetchData().then((data) => console.log(data)); // "Data Loaded"
 What is the Event Loop?
 JavaScript is single-threaded, meaning it executes code one line at a time. The Event Loop manages asynchronous operations by moving them from the callback queue to the call stack.
 
-Call Stack → Executes synchronous code.
-Web APIs → Handles async tasks like setTimeout().
-Callback Queue → Holds pending callbacks.
-Microtask Queue → Holds microtasks (Promises, queueMicrotask()).
+1. Call Stack → 
+Executes synchronous code.
+Follows LIFO (Last In, First Out).
+When a function is called, it's pushed onto the stack; when it finishes, it's popped off.
+
+2. Web APIs → Handles async tasks like setTimeout().
+Not part of JS engine but provided by browsers (or Node.js equivalents).
+Handles async operations like:
+setTimeout
+fetch
+DOM events
+geolocation
+
+3. Callback Queue (a.k.a. Task Queue / Macro-task Queue)
+Stores callbacks from Web APIs after they complete.
+Examples: setTimeout, setInterval, DOM events.
+
+4. Microtask Queue
+For microtasks like:
+Promise.then()
+queueMicrotask()
+MutationObserver
+
+Before any macro-task runs, the event loop clears out all microtasks.
 
 Microtasks vs Macrotasks
 

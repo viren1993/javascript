@@ -55,12 +55,9 @@ console.log(person1.name);  // John
 person1.name = "Sam";       // Setter will change the name
 console.log(person1.name);  // Sam
 
-
 Advantages of Encapsulation:
 Prevents direct modification of sensitive data.
-
 Provides controlled access using getters and setters.
-
 Makes code modular and maintainable.
 
 Interview Questions:

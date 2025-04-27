@@ -58,6 +58,18 @@ type B = A & { y: number }
 7. What are generics in TypeScript?
 Answer: Generics provide a way to create reusable components that work with a variety of types.
 
+Generics allow you to write reusable, type-safe, and flexible code by working with variable (generic) types instead of specific ones.
+
+🔑 Think of them as:
+“Functions or classes that can work with any type, while still keeping type safety.”
+
+🧠 Why Use Generics?
+Avoid code duplication
+
+Maintain type safety
+
+Write reusable components/functions
+
 function identity<T>(arg: T): T {
   return arg;
 }

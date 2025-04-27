@@ -40,7 +40,6 @@ react js you have lerne this code
 
 ---------------
 split components react - page to divvided to mutiple components 
-
 async defer
 serverside 
 ssr why next js react js why nagative 
@@ -61,6 +60,7 @@ setTimeout(() => {
 }, 2000);
 
 console.log("End");
+
 ### **interface**
 interface User {
   id: number;
