@@ -47,8 +47,7 @@ Q: What’s the purpose of useContext?
 A: It helps avoid prop drilling by accessing context directly in a component.
 
 4️⃣ useReducer
-Alternative to useState for complex state logic
-Similar to Redux reducer pattern
+useReducer is a React Hook used for managing complex state logic in functional components. It's a good alternative to useState when you have multiple related state values or need more predictable state transitions (like in a Redux-style reducer pattern).
 
 const [state, dispatch] = useReducer(reducer, initialState)
 

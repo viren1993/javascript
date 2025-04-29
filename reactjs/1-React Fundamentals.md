@@ -31,9 +31,6 @@ A: Props are read-only and passed from parent to child. State is mutable and mai
 Controlled Component: React controls form input using useState.
 Uncontrolled Component: Uses ref to access DOM values directly.
 
-Q: What's the difference between controlled and uncontrolled components?
-A: Controlled components use React state to manage form inputs. Uncontrolled components use refs to get values from the DOM directly.
-
 ✅ 5. Event Handling in React
 - Events are camelCased (onClick, onChange)
 - No need for addEventListener
@@ -62,3 +59,8 @@ Moving state to the nearest common parent when multiple components need shared d
 
 Q: What is “lifting state up” in React?
 A: It means moving shared state to a common parent component so sibling components can access or modify it via props.
+
+✅ 9 what is this in react js 
+this usually refers to the current instance of the component.
+
+In functional components, you don’t usually use this. Instead, you use hooks like useState and useEffect.
