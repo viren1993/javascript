@@ -255,5 +255,139 @@ console.log(obj1.address.city);  // "New York" (unchanged)
 - Iterators & Generators (`function*`, `yield`)
 - Proxy & Reflection (`Proxy`, `Reflect`)re it is declared in the code.
 - callback hell - multiple nested callbacks make
-s
+
+## **Event**
+
+onchange -	An HTML element has been changed
+onclick -	The user clicks an HTML element
+onmouseover -	The user moves the mouse over an HTML element
+onmouseout -	The user moves the mouse away from an HTML element
+onkeydown -	The user pushes a keyboard key
+onload -	The browser has finished loading the page
+
+## **String Methods**
+
+string.text.length // length count text
+string.charAt(0); // index letter return
+string.charCodeAt(); // The charCodeAt() method returns the code of the character at a specified index in a string:
+string.at(2) // index letter return
+text[0] // index letter return
+
+## **Extracting String Parts**
+slice(start, end)
+substring(start, end)
+substr(start, length)
+
+let text = "Apple, Banana, Kiwi";
+let part = text.slice(7, 13);
+let part = text.slice(7); // after 7 ke sub aye ga
+let part = text.slice(-12); // piche se 12 count kar ne ka 
+let part = text.slice(-12, -6); // 
+let part = str.substring(7, 13); // 
+
+String toUpperCase() // upercase 
+String toLowerCase() // lowercase 
+String concat() // concate the data 
+  let text1 = "Hello";
+  let text2 = "World!";
+  let text3 = text1.concat(" ",text2);
+
+String trim() // whte space remove
+  let text1 = "      Hello World!      ";
+  let text2 = text1.trim();
+
+String trimStart()
+let text2 = text1.trimStart(); //  but removes whitespace only from the start of a string.
+
+String trimEnd() // but removes whitespace only from the end of a string.
+
+String padStart() //
+let text = "5";
+text = text.padStart(4,"a");
+answer --- aaa5
+
+String padEnd()
+let text = "5";
+text = text.padEnd(4,"a");
+answer --- 5aaa
+
+String repeat()
+let result = text.repeat(2); // 2 time word repeat
+
+String replace()
+let text = "Please visit Microsoft!";
+let newText = text.replace("Microsoft", "W3Schools");
+
+String replaceAll() 
+
+String split() // A string can be converted to an array with the split() method:
+let text = "a,b,c,d,e,f";
+const myArray = text.split(","); 
+answer = a
+
+## **JavaScript String Search
+
+String indexOf() //  returns the index (position) // word count kar ta he 
+String lastIndexOf() // returns the index of the last occurrence of a specified text in a string string count kar ta he 
+String search() // searches a string for a string (or a regular expression) and returns the position of the match
+String match() // method returns an array containing the results of matching a string against a string
+String matchAll() // returns an iterator containing the results of matching a string against a string // mutiple show 
+String includes() // method returns true if a string contains a specified value.
+text.includes("world", 12); Check if a string includes "world". Start at position 12:
+String startsWith() // method returns true if a string begins with a specified value.
+String endsWith() // method returns true if a string ends with a specified value.
+
+## **Number Methods
+
+toString()	Returns a number as a string
+toExponential()	Returns a number written in exponential notation
+let x = 9.656;
+x.toExponential(2) // 9.66e+0
+
+toFixed()	Returns a number written with a number of decimals
+toPrecision()	Returns a number written with a specified length
+x.toPrecision(2) // 9.7
+
+valueOf()	Returns a number as a number
+(100 + 23).valueOf() // 123
+
+## **Array Methods**
+
+- Array length -  returns the length (size) of an array
+- Array toString() -  converts an array to a string 
+- Array at() - 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits.at(2); // Apple
+- Array join() // It behaves just like toString(), but in addition you can specify the separator
+- Array pop() // removes the last element from an array
+- Array push() // adds a new element to an array (at the end)
+- Array shift() // emoves the first array element and "shifts" all other elements to a lower index.
+- Array unshift() // method adds a new element to an array (at the beginning), and "unshifts" older elements:
+- Array delete() // delete fruits[0]
+- Array concat() // method creates a new array by merging (concatenating) existing arrays:
+- Array copyWithin() //  method copies array elements to another position in an array:
+- Array flat() // 
+const myArr = [[1,2],[3,4],[5,6]];
+const newArr = myArr.flat(); // 1,2,3,4,5,6
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.copyWithin(1,0) // Banana,Banana,Orange,Apple
+first index  apply replace value second index applly value of one
+
+- Array splice()
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi"); // Banana,Orange,Lemon,Kiwi,Apple,Mango
+
+- Array toSpliced() -  delete first 2 mens index 1 after 2 index deletel
+const spliced = months.toSpliced(2, 1);
+
+- Array slice() - - remove before inde of 2  
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits.slice(2);
+Lemon,Apple,Mango
+
+
+
+
+
 

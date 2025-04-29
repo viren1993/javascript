@@ -5,3 +5,5 @@ I’m currently working at Vashishth Technologies, where I’ve been part of a c
 I specialize in building responsive and SEO-optimized UI using React.js, Redux Toolkit, Next.js, and TailwindCSS. I also have experience working with Web3, integrating blockchain wallets and APIs. Prior to this, I worked at Accelerated Business Solutions and PeaceInfotech, where I focused on accessibility, cross-browser compatibility, and dynamic web interfaces.
 
 I enjoy clean code, component-based architecture, and collaborating with teams to build user-friendly products. I’m currently looking for a product-based company where I can contribute to meaningful projects and also grow in an innovative and fast-paced environment."**
+
+BRKPP9161P
