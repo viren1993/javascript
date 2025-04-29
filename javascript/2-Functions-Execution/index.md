@@ -49,12 +49,15 @@ Lexical Scoping
 Closures work due to lexical scoping, meaning inner functions can access variables from their outer function’s scope.
 
 function outer() {
-  let name="viren"
+  let name = "viren";
   function inner() {
-    console.log(name, 'inner function call)
+    console.log(name, 'inner function call');
   }
-  return inner()
+  return inner; // return the function itself, not its result
 }
+
+const closureFn = outer(); // outer() runs and returns inner function
+closureFn(); // Now calling the returned function
 
 const myFunc = outer();
 myFunc(); // Output: John
