@@ -42,9 +42,7 @@ Example (JavaScript - HOFs using map, filter, reduce):
 
 Advantages of HOFs:
 Code Reusability: Functions can be passed as arguments, making code more modular.
-
 Less Code, More Power: Reduce duplication with functions like map, filter, and reduce.
-
 Encapsulation: Business logic can be separated into smaller functions
 
 3. Immutability

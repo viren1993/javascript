@@ -145,40 +145,6 @@
 - `process`, `Buffer`, Streams
 - `setImmediate` vs `nextTick`
 
----
-
-### 📌 About
-
-This document serves as a comprehensive guide to JavaScript concepts, covering everything from fundamentals to advanced topics. Suitable for beginners and experienced developers alike!
-
-🔗 Stay updated with modern JavaScript practices and deepen your knowledge by exploring each topic further.
-alert(8); is the same as window.alert(8);
-
-## OPPS
-
-## Object
-
-- collection of properties and methods
-- toLowerCase
-
-## Why use opps
-
-## parts of opps
-
-Object Literal
-
-- Constructor function
-- Prototypes
-- Classes
-- Instances (new, this)
-
-## Pillars
-
-- Abstraction - deatails hide kar na - (fetch api call kar se kar just background prosess)
-- Encapsulation - encapsulation is wrapping up of data in method and funcation hide kar diya jo access jo kar na wo kar ne diya
-- inheritance -
-- Polymorphism - Poly is many - morphism sawaroop - 1 method mutiple roop just like console log
-
 - What is the Factory Pattern?
     A pattern that creates objects without exposing the instantiation logic.
 - What is the Singleton Pattern?
@@ -211,10 +177,10 @@ Object Literal
 3. Fetch API & AJAX
 4. WebSockets
 
-- Promises is object represents the eventual completion (or failure)
+- Promises is object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 - Callback is a function passed as an argument to another function
 - Closures allow functions to retain access to their parent scope's variables even after the parent function has executed.
-- Hoisting - function or variable befo you decation code
+- Hoisting - function or variable before you decation code
 - Pure Functions - Always produces the same output for the same input.
 - HOFs - Takes another function as an argument, Returns another function.
 - Currying & Function Composition - Currying is transforming a function with multiple arguments into a series of functions, each taking one argument at a time.
@@ -244,6 +210,11 @@ console.log(obj1.address.city);  // "New York" (unchanged)
 
 - Debouncing - Debouncing ensures that a function is only executed after a specified delay following the last time it was invoked.
 - Throttling - Throttling ensures that a function is executed at most once in a specified interval, regardless of how many times the event occurs. This is useful for optimizing performance in frequently occurring events like scrolling.
+- Lazy Loading - Lazy Loading is a performance optimization technique where certain resources (like images, scripts, or components) are loaded only when they are needed, rather than loading everything upfront.
+Why Lazy Loading ?
+  Reduces initial load time.
+  Saves bandwidth.
+  Improves user experience by prioritizing critical content first.
 
 - Template Literals (`\`${var}\``)
 - Destructuring (`const { prop } = obj`)
@@ -385,6 +356,127 @@ const spliced = months.toSpliced(2, 1);
 const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 const citrus = fruits.slice(2);
 Lemon,Apple,Mango
+
+## **Array Search**
+Array indexOf()
+Array lastIndexOf()
+Arrat include()
+Array find()
+Array findIndex()
+Array findLast()
+Array findLastIndex()
+
+## **Array Sorting** 
+- Alphabetic Sort
+Array sort()
+Array reverse()
+Array toSorted()
+Array toReversed()
+Sorting Objects
+
+- Numeric Sort
+Numeric Sort
+Random Sort
+Math.min()
+Math.max()
+Home made Min()
+Home made Max()
+
+## **Array Iteration Methods**
+Array forEach
+Array map()
+Array flatMap()
+Array filter()
+Array reduce()
+Array reduceRight()
+Array every()
+Array some()
+Array from()
+Array keys()
+Array entries()
+Array with()
+Array Spread (...)
+
+## **JavaScript Math Object**
+
+## **Javascript if, else and else if
+- Use if to specify a block of code to be executed, if a specified condition is true
+- Use else to specify a block of code to be executed, if the same condition is false
+- Use else if to specify a new condition to test, if the first condition is false
+- Use switch to specify many alternative blocks of code to be executed
+
+## **Different Kinds of Loops**
+- for - loops through a block of code a number of times
+- for/in - loops through the properties of an object
+- for/of - loops through the values of an iterable object
+- while - loops through a block of code while a specified condition is true
+- do/while - also loops through a block of code while a specified condition is true
+
+
+## **Break**
+-- The break statement "jumps out" of a loop.
+
+- JavaScript Iterables - Iterables can be iterated over with for..of loops
+
+## **Types of Function Invocation**
+
+1. Regular Function Invocation
+function greet() {
+  console.log("Hello, World!");
+}
+greet();  // Invoking the function
+
+2. Function with Parameters
+function add(a, b) {
+  return a + b;
+}
+const result = add(5, 3);  // Invoking with arguments
+console.log(result); // 8
+
+3. Function Expression Invocation
+const sayHi = function() {
+  console.log("Hi there!");
+};
+sayHi(); // Invoked
+
+4. Arrow Function Invocation
+const multiply = (x, y) => x * y;
+console.log(multiply(4, 5)); // 20
+
+5. Immediately Invoked Function Expression (IIFE)
+(function () {
+  console.log("IIFE Invoked!");
+})();
+
+6. Method Invocation (within objects)
+const person = {
+  name: "Alice",
+  greet: function () {
+    console.log(`Hello, I am ${this.name}`);
+  }
+};
+person.greet(); // "Hello, I am Alice"
+
+7. Using call() and apply() 
+## *Call function with this binding
+## *Same as call but uses array args
+
+function say(message) {
+  console.log(`${message}, ${this.name}`);
+}
+const user = { name: "Bob" };
+
+say.call(user, "Hi");     // "Hi, Bob"
+say.apply(user, ["Hello"]); // "Hello, Bob"
+
+8. Using bind() to create a bound function
+## *Returns a new bound function
+
+const boundSay = say.bind(user, "Hey");
+boundSay(); // "Hey, Bob"
+
+
+
 
 
 

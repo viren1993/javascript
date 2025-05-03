@@ -541,6 +541,41 @@ componentDidUpdate	useEffect(() => {}, [deps])
 componentWillUnmount	useEffect(() => { return () => {} }, [])
 shouldComponentUpdate	React.memo() or useMemo
 
+  
+export default function App() {
+  const [count, setCount] = useState(0);
+  const [isRunning, setIsRunning] = useState(false);
+  const intervalRef = useRef(null);
+
+  useEffect(() => {
+    if (isRunning) {
+      intervalRef.current = setInterval(() => {
+        setCount((prev) => prev + 1);
+      }, 1000);
+    } else {
+      clearInterval(intervalRef.current);
+      intervalRef.current = null;
+    }
+
+    return () => clearInterval(intervalRef.current);
+  }, [isRunning]);
+
+  const handleToggle = () => {
+    setIsRunning((prev) => {
+      if (prev) setCount(0); // Reset count when stopping
+      return !prev;
+    });
+  };
+
+  return (
+    <div>
+      <h1>Hello StackBlitz!</h1>
+      <p>Time : {count}</p>
+      <button onClick={handleToggle}>{isRunning ? 'Reset' : 'Start'}</button>
+    </div>
+  );
+}
+
 
 
 

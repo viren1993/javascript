@@ -98,6 +98,7 @@ function multiply(x) {
     return x * y;
   };
 }
+
 const double = multiply(2);
 console.log(double(5)); // 10
 

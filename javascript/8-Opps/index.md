@@ -21,8 +21,8 @@
  Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects that encapsulate both data and behavior.
 
 Four Pillars of OOP
-Encapsulation – Wrapping data & methods inside a class.
 Abstraction – Hiding implementation details and exposing only what’s necessary.
+Encapsulation – Wrapping data & methods inside a class.
 Inheritance – A class derives properties & behaviors from another class.
 Polymorphism – A method or function behaves differently based on context.
 
