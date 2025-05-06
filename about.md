@@ -9,6 +9,7 @@ Previously, I’ve worked with Accelerated Business Solutions and PeaceInfotech,
 I value clean, maintainable code, component-based architecture, and collaborative development environments. I’m now seeking opportunities in product-based companies where I can work on impactful projects and continue growing in a fast-paced, innovative setting.
 
 BRKPP9161P
+arvind hansraj
 
 Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVmlyZW4gUGFybWFyIiwiZW1haWwiOiJwYXJtYXJ2aXJlbjE2QGdtYWlsLmNvbSIsImRhdGUiOiIyMDI1LTA1LTAyIDAzOjUwOjA5In0.nl56F8Mfc-VUq6LKhqT2_URjeKkR2sxTr7roDaDRavE
 
@@ -36,3 +37,8 @@ Understanding of SEO optimization, performance tuning, and caching strategies
 Experience with version control (GitHub, or Bitbucket)
 Familiarity with testing frameworks (Jest, Cypress, or Playwright)
 Understanding of e-commerce
+
+
+cover letter 
+I am a Frontend Developer with over 6 years of experience, including 3+ years of hands-on work with React.js, Redux Toolkit, TypeScript, and Next.js. At Vashishth Technologies, I’ve built and maintained scalable, real-time applications such as ONS Trading and CrSIP, involving WebSocket-based data, arbitrage tools, and Web3 integration. I specialize in clean, maintainable code and responsive, SEO-optimized UI development using modern frameworks. I’m seeking a product-based role where I can contribute to impactful projects and grow in a fast-paced, innovative environment.
+

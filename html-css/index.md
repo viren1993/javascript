@@ -192,9 +192,7 @@ Ensures:
 | Server Push      | ❌ Not supported               | ✅ Can push assets before requested    |
 | Connection Reuse | Limited                        | Efficient, fewer TCP connections        |
 
-what cutom hook
-why used that
-konsi jaga used nahi kar sakta he cutom hook
+
 
 | Feature        | PostgreSQL (SQL)        | Node.js with SQL         | MongoDB (NoSQL)                 |
 | -------------- | ----------------------- | ------------------------ | ------------------------------- |
@@ -204,18 +202,52 @@ konsi jaga used nahi kar sakta he cutom hook
 | Best For       | Structured data, joins  | Full backend integration | Fast-changing/unstructured data |
 | Scaling        | Vertical (mostly)       | Depends on DB            | Horizontal (built-in)           |
 
+
+what cutom hook
+why used that
+konsi jaga used nahi kar sakta he cutom hook
 Virtual DOM? 
 
 whay is why used 
 Virtual DOM updated real dome all commpareded real copy DOM
 How it works:
 
-Designed SOLID method
+SOLID Principles (Designed Method)
+SOLID is a set of 5 design principles for writing clean, maintainable code.
+
+S – Single Responsibility Principle
+O – Open/Closed Principle
+L – Liskov Substitution Principle
+I – Interface Segregation Principle
+D – Dependency Inversion Principle
 
 Mirco frontend explain 
+Micro frontend is a design approach where a frontend app is split into smaller, independent pieces, each developed and deployed separately like microservices.
+
+✅ How it works:
+Each team works on a feature or module independently
+
+Modules are integrated at runtime using iframes, Webpack Module Federation, or iframe-less approaches
+
+Good for large apps, independent deployments, and team scaling
+
 how to work
 what is yarn 
-whay loack file req what befnifit
+Why yarn.lock or package-lock.json file is required?
+These files:
+
+Lock exact versions of dependencies
+
+Ensure same version is installed in every environment (local, staging, prod)
+
+Avoid unexpected bugs due to auto-updated dependencies
+
+✅ Benefits:
+Predictable builds
+
+Safer deployment
+
+Easier debugging
 
 fronted side CSRF 
 why what how 

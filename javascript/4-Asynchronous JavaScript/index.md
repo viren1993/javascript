@@ -12,30 +12,6 @@
 
 - Promises is object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 
-A Promise is in one of these states:
-
-- pending: initial state, neither fulfilled nor rejected.
-- fulfilled: meaning that the operation was completed successfully.
-- rejected: meaning that the operation failed.
-
-const myPromise = new Promise((resolve, reject) => {
-  const success = true;
-
-  if (success) {
-    resolve("✅ Promise resolved!");
-  } else {
-    reject("❌ Promise rejected!");
-  }
-});
-
-myPromise
-  .then((message) => {
-    console.log("Then:", message);
-  })
-  .catch((error) => {
-    console.log("Catch:", error);
-  });
-
 - 1. Callbacks & Callback Hell
 A callback is a function passed as an argument to another function, executed after the main function completes.
 

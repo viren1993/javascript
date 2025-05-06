@@ -125,8 +125,17 @@
 ## 12. Performance Optimization
 
 - Debouncing vs Throttling
+  - Debouncing - Debouncing ensures that a function is only executed after a specified delay following the last time it was invoked.
+  - Throttling - Throttling ensures that a function is executed at most once in a specified interval, regardless of how many times the event occurs. This is useful for optimizing performance in frequently occurring events like scrolling.
+
 - Lazy Loading
 In React, use React.lazy() and Suspense:
+
+- Lazy Loading - Lazy Loading is a performance optimization technique where certain resources (like images, scripts, or components) are loaded only when they are needed, rather than loading everything upfront.
+Why Lazy Loading ?
+  Reduces initial load time.
+  Saves bandwidth.
+  Improves user experience by prioritizing critical content first.
 
 - Web Workers (Offloading tasks)
 Use Web Workers to offload CPU-intensive tasks (e.g., image processing, parsing large files, data crunching) from the main thread to prevent UI freezing.
@@ -219,7 +228,7 @@ Run tests automatically or during CI/CD
 - Bubbling: Events propagate from child → parent.
 - Capturing: Events propagate from parent → child.
 
-2. Web Storage (localStorage & sessionStorage)
+2. Web Storage (localStorage & sessionStorage).
 
 3. Fetch API & AJAX
 4. WebSockets
@@ -254,14 +263,6 @@ obj2.address.city = "Los Angeles";
 
 console.log(obj1.name);   // "John" (unchanged)
 console.log(obj1.address.city);  // "New York" (unchanged)
-
-- Debouncing - Debouncing ensures that a function is only executed after a specified delay following the last time it was invoked.
-- Throttling - Throttling ensures that a function is executed at most once in a specified interval, regardless of how many times the event occurs. This is useful for optimizing performance in frequently occurring events like scrolling.
-- Lazy Loading - Lazy Loading is a performance optimization technique where certain resources (like images, scripts, or components) are loaded only when they are needed, rather than loading everything upfront.
-Why Lazy Loading ?
-  Reduces initial load time.
-  Saves bandwidth.
-  Improves user experience by prioritizing critical content first.
 
 - Template Literals (`\`${var}\``)
 - Destructuring (`const { prop } = obj`)

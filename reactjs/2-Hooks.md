@@ -2,6 +2,20 @@
 
 A Hook is a special function in React that lets you “hook into” React features (like state, lifecycle, and context) from functional components.
 
+| Hook                  | Purpose                                                          |
+| --------------------- | ---------------------------------------------------------------- |
+| `useState`            | Adds state to functional components                              |
+| `useEffect`           | Runs side effects (e.g., API calls, subscriptions)               |
+| `useContext`          | Consumes values from `React.Context`                             |
+| `useRef`              | Access or persist values across renders without re-rendering     |
+| `useMemo`             | Caches expensive calculations                                    |
+| `useCallback`         | Caches function references                                       |
+| `useReducer`          | Alternative to `useState` for complex state logic                |
+| `useLayoutEffect`     | Like `useEffect`, but runs **synchronously after DOM mutations** |
+| `useImperativeHandle` | Customize the instance value that is exposed when using `ref`    |
+| `useDebugValue`       | Debugging custom hooks                                           |
+
+ 
 1️⃣ useState
 - Adds state to functional components
 - Returns an array with current state and a setter function
