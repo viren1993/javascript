@@ -33,6 +33,8 @@ How do you avoid unnecessary re-renders?
 
 2. Lazy Loading
 
+Lazy loading is a design pattern that delays loading components or resources until they are actually needed — usually at the moment they're about to appear on screen. This reduces the initial load time, improves performance, and provides a better user experience.
+
 React.lazy
 Code splits by loading components lazily.
 const LazyComponent = React.lazy(() => import('./MyComponent'));

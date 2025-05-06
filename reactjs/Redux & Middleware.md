@@ -81,18 +81,34 @@ export const fetchData = () => async (dispatch) => {
 
 Interview Qs:
 
-When would you use Thunk?
-Can Thunk return another function?
+Q: When would you use Thunk?
+I use Thunk when I need to handle simple async logic, like fetching data from an API, submitting a form, or chaining dispatches.
+It’s perfect for scenarios where the async flow is linear and not too complex, and I want to keep logic close to the action creator.
+
+Q: Can Thunk return another function?
+Yes — that’s exactly what it does. Thunk replaces the action with a function that receives dispatch (and optionally getState).
+This function allows you to perform async operations, and dispatch other actions manually based on the results.
+
+export const fetchData = () => async (dispatch, getState) => {
+  const response = await fetch('/api/data');
+  const data = await response.json();
+  dispatch({ type: 'SET_DATA', payload: data });
+};
+
+
 
 ⚡ Redux Saga
 
 What:
+Redux Saga is a middleware that uses generator functions (function*) to manage complex side effects in a declarative way. You write "sagas" that can pause, resume, cancel, debounce, or retry tasks.
+
 Saga uses generator functions to handle side effects (e.g., API calls, delays).
 
 Benefits:
 Better control over complex async flows
 Declarative effects
 Cancellation, debouncing, etc.
+
 
 Example:
 
@@ -109,7 +125,11 @@ function* watchFetchData() {
 
 Interview Qs:
 
-Why Saga over Thunk?
+ Q: When would you use Redux Saga over Thunk?
+I choose Redux Saga when dealing with complex async flows — like race conditions, background syncing, polling, or when I need to cancel, delay, or retry effects.
+Saga is ideal for large apps where side effects become harder to manage with nested thunks.
+
+
 What is call, put, and takeEvery?
 How do you handle retries or cancellations?
 

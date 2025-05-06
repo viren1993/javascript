@@ -1,5 +1,7 @@
 ⚛️ Module 2: Hooks (Deep Dive)
 
+A Hook is a special function in React that lets you “hook into” React features (like state, lifecycle, and context) from functional components.
+
 1️⃣ useState
 - Adds state to functional components
 - Returns an array with current state and a setter function

@@ -62,7 +62,169 @@ Examples:
 What is the difference between <strong> and <b>
 
 
+Common Block-Level Elements
 
+1. Structural Elements
+<div> - Generic block container
+<header> - Introductory content
+<footer> - Footer content
+<section> - Thematic grouping
+<article> - Self-contained composition
+<aside> - Tangentially related content
+<nav> - Navigation links
+<main> - Dominant content
+
+2. Text Containers
+<p> - Paragraph
+<h1> to <h6> - Headings
+<blockquote> - Long quotation
+<pre> - Preformatted text
+
+3. Lists
+<ul>, <ol>, <li> - Unordered/ordered lists and list items
+<dl>, <dt>, <dd> - Description lists
+
+4. Form Elements
+Form Elements
+
+5. <table> - Tabular data
+<hr> - Thematic break
+<address> - Contact information
+
+Key Characteristics of Block Elements
+Layout Behavior:
+Always start on a new line
+Take up the full width available (unless styled otherwise)
+Stack vertically by default
+
+Can Contain:
+Other block elements
+Inline elements
+Text conten
+
+
+Dom event 
+| Event       | Description                            |
+| ----------- | -------------------------------------- |
+| `click`     | When an element is clicked             |
+| `input`     | When a user types in an input field    |
+| `change`    | When a form element value changes      |
+| `mouseover` | When the mouse enters an element       |
+| `mouseout`  | When the mouse leaves an element       |
+| `keydown`   | When a key is pressed down             |
+| `submit`    | When a form is submitted               |
+| `load`      | When the page or image is fully loaded |
+
+Table click row 1 even listen 
+
+<script>
+  const firstRow = document.querySelector("#myTable tr");
+
+  firstRow.addEventListener("click", () => {
+    alert("First row clicked!");
+  });
+</script>
+
+Why the Last Script File is Important in HTML
+Key Reasons
+
+Execution Order:
+Scripts execute in the order they appear in the HTML
+The last script runs after all previous ones have loaded/executed
+
+Dependencies:
+If scripts depend on libraries or variables defined in earlier scripts
+The dependent script must come after its dependencies
+
+DOM Readiness:
+Scripts at the end of <body> can access fully loaded DOM
+Avoids need for DOMContentLoaded or window.onload events
+
+
+🔹 1. Time Management Techniques
+Break into small tasks – Easier to estimate accurately.
+Three-Point Estimation – Use best, worst, and likely case for balance.
+Historical Data – Refer to past work for realistic timing.
+Add buffer (20–30%) – For unknowns or bugs.
+
+adaptive design vs responsive design
+✅ Responsive Design
+Definition: A single flexible layout that automatically adjusts to any screen size using fluid grids, percentages, and media queries.
+Example: A website layout rearranges itself smoothly when resizing the browser window.
+Pros: One codebase fits all devices, easier maintenance.
+Tools: CSS Flexbox, Grid, Media Queries
+
+✅ Adaptive Design
+Definition: Multiple fixed layouts designed for specific screen sizes (e.g., 320px, 768px, 1024px).
+Example: A different layout loads for mobile, tablet, and desktop.
+Pros: Optimized experience for each device.
+Cons: More complex, higher maintenance.
+
+Core Concepts of REST API
+Stateless: Each request is independent and contains all necessary information.
+
+Uses HTTP methods:
+
+GET – Retrieve data
+POST – Create data
+PUT – Update data
+DELETE – Remove data
+
+Resource-based: Everything is a resource identified by a URL.
+
+Uses JSON (commonly) for sending/receiving data.
+
+🔐 What is HTTPS?
+HTTPS (HyperText Transfer Protocol Secure) is the secure version of HTTP.
+Uses SSL/TLS encryption to protect data between browser and server.
+
+Ensures:
+
+✅ Data encryption (privacy)
+✅ Data integrity (no tampering)
+✅ Authentication (verifies server identity)
+
+🌐 HTTP/1.1 vs HTTP/2 (both support HTTPS)
+| Feature          | **HTTP/1.1**                   | **HTTP/2**                              |
+| ---------------- | ------------------------------ | --------------------------------------- |
+| Request Handling | One request per connection     | Multiplexing: multiple requests at once |
+| Speed            | Slower (head-of-line blocking) | Faster (parallel streams)               |
+| Headers          | Text-based, large headers      | Binary, compressed headers              |
+| Server Push      | ❌ Not supported                | ✅ Can push assets before requested      |
+| Connection Reuse | Limited                        | Efficient, fewer TCP connections        |
+
+what cutom hook
+why used that
+konsi jaga used nahi kar sakta he cutom hook
+
+| Feature        | PostgreSQL (SQL)        | Node.js with SQL         | MongoDB (NoSQL)                 |
+| -------------- | ----------------------- | ------------------------ | ------------------------------- |
+| Data Type      | Relational (Structured) | Backend with SQL support | Document (Flexible JSON)        |
+| Schema         | Strict schema           | Uses libraries/ORMs      | Schema-less                     |
+| Query Language | SQL                     | SQL via JS libraries     | JavaScript-style queries        |
+| Best For       | Structured data, joins  | Full backend integration | Fast-changing/unstructured data |
+| Scaling        | Vertical (mostly)       | Depends on DB            | Horizontal (built-in)           |
+
+
+Virtual DOM? 
+
+whay is why used 
+Virtual DOM updated real dome all commpareded real copy DOM
+How it works:
+
+
+Designed SOLID method
+
+Mirco frontend explain 
+how to work
+what is yarn 
+whay loack file req what befnifit
+
+fronted side CSRF 
+why what how 
+
+Unit testing
+what why how
 
 
 

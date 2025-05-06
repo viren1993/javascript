@@ -475,11 +475,3 @@ say.apply(user, ["Hello"]); // "Hello, Bob"
 const boundSay = say.bind(user, "Hey");
 boundSay(); // "Hey, Bob"
 
-
-
-
-
-
-
-
-

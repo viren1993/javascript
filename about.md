@@ -1,10 +1,12 @@
-"Sure! My name is Viren Parmar, and I’m a Frontend Developer with over 6 years of total experience and around 3+ years of hands-on experience in React.js, Redux, TypeScript, and modern frontend technologies.
+Hi, I’m Viren Parmar — a Frontend Developer with over 6 years of experience, including 3+ years of hands-on expertise in React.js, Redux, TypeScript, and modern frontend technologies.
 
-I’m currently working at Vashishth Technologies, where I’ve been part of a core development team building high-performance, scalable applications like ONS Trading and CrSIP — both crypto-based platforms with features like WebSocket-based live data, arbitrage calculations, and crypto investment automation.
+Currently, I’m part of the core development team at Vashishth Technologies, where I contribute to building high-performance, scalable applications such as ONS Trading and CrSIP — crypto-focused platforms featuring WebSocket-powered live data, arbitrage tools, and automated investment workflows.
 
-I specialize in building responsive and SEO-optimized UI using React.js, Redux Toolkit, Next.js, and TailwindCSS. I also have experience working with Web3, integrating blockchain wallets and APIs. Prior to this, I worked at Accelerated Business Solutions and PeaceInfotech, where I focused on accessibility, cross-browser compatibility, and dynamic web interfaces.
+My core strengths lie in crafting responsive, accessible, and SEO-friendly user interfaces using React.js, Redux Toolkit, Next.js, and TailwindCSS. I also bring experience in Web3 integration, working with blockchain APIs and wallet connectivity to create seamless crypto user experiences.
 
-I enjoy clean code, component-based architecture, and collaborating with teams to build user-friendly products. I’m currently looking for a product-based company where I can contribute to meaningful projects and also grow in an innovative and fast-paced environment."
+Previously, I’ve worked with Accelerated Business Solutions and PeaceInfotech, where I focused on cross-browser compatibility, accessibility, and building dynamic UI components that enhance usability and performance.
+
+I value clean, maintainable code, component-based architecture, and collaborative development environments. I’m now seeking opportunities in product-based companies where I can work on impactful projects and continue growing in a fast-paced, innovative setting.
 
 BRKPP9161P
 
