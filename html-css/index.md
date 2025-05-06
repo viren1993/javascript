@@ -140,7 +140,6 @@ DOM Readiness:
 Scripts at the end of <body> can access fully loaded DOM
 Avoids need for DOMContentLoaded or window.onload events
 
-
 🔹 1. Time Management Techniques
 Break into small tasks – Easier to estimate accurately.
 Three-Point Estimation – Use best, worst, and likely case for balance.
@@ -190,7 +189,7 @@ Ensures:
 | Request Handling | One request per connection     | Multiplexing: multiple requests at once |
 | Speed            | Slower (head-of-line blocking) | Faster (parallel streams)               |
 | Headers          | Text-based, large headers      | Binary, compressed headers              |
-| Server Push      | ❌ Not supported                | ✅ Can push assets before requested      |
+| Server Push      | ❌ Not supported               | ✅ Can push assets before requested    |
 | Connection Reuse | Limited                        | Efficient, fewer TCP connections        |
 
 what cutom hook
@@ -205,13 +204,11 @@ konsi jaga used nahi kar sakta he cutom hook
 | Best For       | Structured data, joins  | Full backend integration | Fast-changing/unstructured data |
 | Scaling        | Vertical (mostly)       | Depends on DB            | Horizontal (built-in)           |
 
-
 Virtual DOM? 
 
 whay is why used 
 Virtual DOM updated real dome all commpareded real copy DOM
 How it works:
-
 
 Designed SOLID method
 
@@ -225,12 +222,3 @@ why what how
 
 Unit testing
 what why how
-
-
-
-
-
-
-
-
-

@@ -10,7 +10,6 @@
 - Iterators & Generators (`function*`, `yield`)
 - Proxy & Reflection (`Proxy`, `Reflect`)
 
-
   above topic send me all in each every details interview related and theory related all this topic
 
 

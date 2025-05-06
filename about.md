@@ -20,3 +20,19 @@ header key = Authorization
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVmlyZW4gUGFybWFyIiwiZW1haWwiOiJwYXJtYXJ2aXJlbjE2QGdtYWlsLmNvbSIsImRhdGUiOiIyMDI1LTA1LTAyIDAzOjU5OjUxIn0.YGAlyAvDhkoezmqriBhon8z_1kjqDDAZCJTXEBENS-w
 
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVmlyZW4gUGFybWFyIiwiZW1haWwiOiJwYXJtYXJ2aXJlbjE2QGdtYWlsLmNvbSIsImRhdGUiOiIyMDI1LTA1LTAyIDAzOjU5OjUxIn0.YGAlyAvDhkoezmqriBhon8z_1kjqDDAZCJTXEBENS-w
+
+
+Develop and maintain frontend applications using Next.js and React.js
+Optimize applications for speed, performance, and SEO using Next.js features (SSR, SSG, ISR, CSR)
+Implement responsive and accessible UI/UX designs
+Integrate RESTful APIs and GraphQL endpoints
+Work closely with backend developers to ensure seamless data flow
+Write clean, reusable, and maintainable code following best practices
+Strong proficiency in Next.js & React.js
+Experience with TypeScript, CSS
+Knowledge of state management (Redux)
+Familiarity with API integration (REST, GraphQL)
+Understanding of SEO optimization, performance tuning, and caching strategies
+Experience with version control (GitHub, or Bitbucket)
+Familiarity with testing frameworks (Jest, Cypress, or Playwright)
+Understanding of e-commerce

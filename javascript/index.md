@@ -28,6 +28,15 @@
     - memoization ()
 
 - **`this` Keyword**
+  - he value of this depends on how a function is called.
+  - Rules for this
+    Scenario	                              Value of this
+    Global Scope	                          window (in browsers) or global (Node.js)
+    Object Method	                          The object that called the method
+    Function (Strict Mode)	                undefined
+    Arrow Function	                        this is inherited from surrounding scope
+    new keyword	                            A new object instance
+    call / apply / bind	                    Explicitly set this
   - Implicit, Explicit (`call`, `apply`, `bind`), `new` Binding
   - Arrow functions & `this`
 
@@ -117,13 +126,36 @@
 
 - Debouncing vs Throttling
 - Lazy Loading
+In React, use React.lazy() and Suspense:
+
 - Web Workers (Offloading tasks)
+Use Web Workers to offload CPU-intensive tasks (e.g., image processing, parsing large files, data crunching) from the main thread to prevent UI freezing.
+
 
 ## 13. Security
 
 - XSS Prevention
+🔹 Q4: How do you prevent XSS (Cross-Site Scripting) in React?
+Avoid using dangerouslySetInnerHTML unless absolutely necessary.
+Sanitize inputs and server responses.
+Use libraries like DOMPurify for sanitization.
+
+import DOMPurify from 'dompurify';
+<div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(userInput) }} />
+
 - CORS & CSRF Protection
+CORS (Cross-Origin Resource Sharing) is a browser security feature that controls cross-domain requests. To fix issues, configure allowed origins on the server using headers like:
+Access-Control-Allow-Origin: https://yourdomain.com
+
+CSRF (Cross-Site Request Forgery) tricks authenticated users into making unintended requests.
+Protection methods:
+
+Use SameSite cookies (SameSite=Lax or Strict)
+Implement CSRF tokens (generated server-side and validated on each request)
+Use secure HTTP methods (GET for data fetches)
+
 - Content Security Policy (CSP)
+CSP is an HTTP header that restricts what resources (scripts, styles, etc.) can be loaded by the browser. It helps prevent XSS by only allowing trusted content.
 
 ## 14. Advanced & Niche Topics
 
@@ -136,6 +168,21 @@
 ## 15. Testing & Tools
 
 - Unit Testing (`Jest`, `Mocha`)
+Unit Testing is the process of testing individual units or components of software (like a function or component) in isolation to ensure they work as intended.
+
+| Purpose                   | Benefit                                                   |
+| ------------------------  | --------------------------------------------------------- |
+| ✅ Catch bugs early       | Identify issues during development, not in production     |
+| ✅ Improve code quality   | Enforces modular, testable, and maintainable code         |
+| ✅ Enable refactoring     | You can safely update code if tests protect functionality |
+| ✅ Documentation          | Tests describe what a unit is expected to do              |
+| ✅ Confidence in releases | Increases trust in deployments and continuous integration |
+
+✅ How is Unit Testing Done?
+Choose a testing framework (e.g., Jest, Mocha)
+Write test cases that describe expected input and output
+Run tests automatically or during CI/CD
+
 - Mocking (`Sinon.js`)
 - Linters (`ESLint`)
 
@@ -228,7 +275,6 @@ Why Lazy Loading ?
 - callback hell - multiple nested callbacks make
 
 ## **Event**
-
 onchange -	An HTML element has been changed
 onclick -	The user clicks an HTML element
 onmouseover -	The user moves the mouse over an HTML element
@@ -474,4 +520,5 @@ say.apply(user, ["Hello"]); // "Hello, Bob"
 
 const boundSay = say.bind(user, "Hey");
 boundSay(); // "Hey, Bob"
+
 

@@ -86,7 +86,7 @@ Solution to Callback Hell: Use Promises or Async/Await
 
 ### ** What is a Promise? **
 
-promises is object represents the eventual completion (or failure)
+- Promises is object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 A Promise represents a value that may be available now, later, or never. It has three states:
 
 Pending → Initial state, operation not complete.
@@ -144,6 +144,19 @@ fetchData().then((data) => console.log(data)); // "Data Loaded"
 What is the Event Loop?
 JavaScript is single-threaded, meaning it executes code one line at a time. The Event Loop manages asynchronous operations by moving them from the callback queue to the call stack.
 
+### ** How Event Loop Works (in steps)
+Call Stack
+→ Executes synchronous code line-by-line.
+
+Web APIs
+→ Asynchronous functions (e.g., setTimeout, fetch) are sent to browser APIs.
+
+Callback Queue / Task Queue
+→ After completion, async callbacks go into the queue.
+
+Event Loop
+→ Constantly checks if the call stack is empty. If yes, it pushes the next queued callback into the stack.
+
 1. Call Stack → 
 Executes synchronous code.
 Follows LIFO (Last In, First Out).
@@ -171,13 +184,13 @@ Before any macro-task runs, the event loop clears out all microtasks.
 
 Microtasks vs Macrotasks
 
-Microtasks (Promise.then(), queueMicrotask())	
+### **Microtasks (Promise.then(), queueMicrotask())	
 Higher priority, executes first	
 .then(), queueMicrotask()	
 Runs before rendering	
 
 ------------------
-Macrotasks (setTimeout, setInterval)
+### **Macrotasks (setTimeout, setInterval)
 Lower priority, executes later
 setTimeout(), setInterval()
 Runs after rendering

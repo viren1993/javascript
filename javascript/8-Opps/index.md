@@ -102,4 +102,3 @@ Abstraction is the process of hiding implementation details while exposing only 
 
 4. Object Literal, Constructor Functions, Prototypes, and Classes
 A mechanism where a child class derives properties and methods from a parent class.
-
