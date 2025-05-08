@@ -129,7 +129,6 @@ Interview Qs:
 I choose Redux Saga when dealing with complex async flows — like race conditions, background syncing, polling, or when I need to cancel, delay, or retry effects.
 Saga is ideal for large apps where side effects become harder to manage with nested thunks.
 
-
 What is call, put, and takeEvery?
 How do you handle retries or cancellations?
 

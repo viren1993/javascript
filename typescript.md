@@ -31,7 +31,6 @@ never: Represents values that never occur (e.g., a function that throws or an in
 5. What are interfaces in TypeScript?
 Answer: Interfaces define the shape of an object. They specify property names, types, and whether they are optional.
 
-
 interface User {
   name: string;
   age: number;
@@ -65,9 +64,7 @@ Generics allow you to write reusable, type-safe, and flexible code by working wi
 
 🧠 Why Use Generics?
 Avoid code duplication
-
 Maintain type safety
-
 Write reusable components/functions
 
 function identity<T>(arg: T): T {

@@ -63,6 +63,7 @@ const myFunc = outer();
 myFunc(); // Output: John
 
 Even though outer() has finished execution, myFunc still retains access to name.
+
 Use Cases of Closures
 
 1. Data Privacy (Encapsulation)

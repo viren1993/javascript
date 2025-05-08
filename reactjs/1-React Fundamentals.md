@@ -18,6 +18,22 @@ A: JSX is a syntax extension that lets you write HTML tags inside JavaScript. It
 What is the Virtual DOM and how does it improve performance?
 - The Virtual DOM is an in-memory copy of the real DOM. React compares Virtual DOM versions (diffing) and only applies real changes (reconciliation), making updates faster.
 
+Reconciliation is the process React uses to update the DOM efficiently when the state or props of a component change.
+🔍 Why is Reconciliation Needed?
+React builds a virtual DOM — a lightweight copy of the real DOM. When something changes:
+
+A new virtual DOM is created.
+React compares it to the previous virtual DOM.
+Only the differences (diff) are updated in the real DOM.
+This process of comparing the old and new virtual DOM and applying minimal updates is called reconciliation.
+
+⚙️ How Does Reconciliation Work?
+React uses a diffing algorithm based on these assumptions:
+
+Elements of different types (e.g., <div> vs <p>) produce different trees — React will destroy the old and build new.
+Elements of the same type are updated in-place (only attributes/text are changed).
+Keys are critical when diffing lists — they help identify which items changed, were added, or removed.
+
 ✅ 3. Props vs State
 Props	                     State
 Immutable	                 Mutable

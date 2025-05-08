@@ -42,3 +42,14 @@ Understanding of e-commerce
 cover letter 
 I am a Frontend Developer with over 6 years of experience, including 3+ years of hands-on work with React.js, Redux Toolkit, TypeScript, and Next.js. At Vashishth Technologies, I’ve built and maintained scalable, real-time applications such as ONS Trading and CrSIP, involving WebSocket-based data, arbitrage tools, and Web3 integration. I specialize in clean, maintainable code and responsive, SEO-optimized UI development using modern frameworks. I’m seeking a product-based role where I can contribute to impactful projects and grow in a fast-paced, innovative environment.
 
+## **Here’s a clear and professional way to describe your current responsibilities and project ownership in English:
+
+At my current company, I’m responsible for end-to-end development of frontend projects. I work closely with 2 graphic designers who provide UI/UX designs, and I take full ownership from interpreting those designs to building fully functional, responsive, and scalable frontend applications.
+
+For one major project, I handled the entire frontend setup from scratch — including folder structure, routing, API integration, global state management (using Redux Toolkit), component development, SEO optimization, and deployment. I ensure the project meets performance standards, accessibility guidelines, and works smoothly across devices and browsers.
+
+I also coordinate with the backend team for API structure, handle integration, and test for edge cases to ensure a seamless user experience.
+
+
+Two recent projects I’m proud of are CrSIP and ONS Trading, both developed at Vashishth Technologies.
+

@@ -115,7 +115,9 @@
 
 - Event Handling
   - Bubbling/Capturing
-  - Event Delegation
+    - Bubbling: Events propagate from child → parent.
+    - Capturing: Events propagate from parent → child
+- Event Delegation
 - Web Storage (`localStorage`, `sessionStorage`)
 - Fetch API & AJAX
 - WebSockets
@@ -132,7 +134,8 @@
 In React, use React.lazy() and Suspense:
 
 - Lazy Loading - Lazy Loading is a performance optimization technique where certain resources (like images, scripts, or components) are loaded only when they are needed, rather than loading everything upfront.
-Why Lazy Loading ?
+
+## **Why Lazy Loading ?
   Reduces initial load time.
   Saves bandwidth.
   Improves user experience by prioritizing critical content first.
@@ -467,7 +470,7 @@ Array Spread (...)
 
 ## **Types of Function Invocation**
 
-1. Regular Function Invocation
+1. Regular Function Invocation  
 function greet() {
   console.log("Hello, World!");
 }

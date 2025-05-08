@@ -18,8 +18,6 @@ Adding custom styles
 Detecting classes in source files
 Functions and directives
 
-
-
 - Layout
 - Flexbox & Grid
 - Effects

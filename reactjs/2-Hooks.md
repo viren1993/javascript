@@ -197,17 +197,3 @@ Features:
 Add, delete, toggle todos
 Local storage integration
 Custom Hook for storage
-
-
-
-
-
-
-
-
-
-
-
-
-
-
