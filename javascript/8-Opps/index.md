@@ -17,7 +17,6 @@
  - inheritance - 
  - Polymorphism - Poly is many - morphism sawaroop - 1 method mutiple roop just like console log  above topic send me all in each every details interview related and theory related all this topic 
 
-
  Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects that encapsulate both data and behavior.
 
 Four Pillars of OOP

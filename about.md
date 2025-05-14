@@ -9,35 +9,8 @@ Previously, I’ve worked with Accelerated Business Solutions and PeaceInfotech,
 I value clean, maintainable code, component-based architecture, and collaborative development environments. I’m now seeking opportunities in product-based companies where I can work on impactful projects and continue growing in a fast-paced, innovative setting.
 
 BRKPP9161P
-arvind hansraj
-
-Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVmlyZW4gUGFybWFyIiwiZW1haWwiOiJwYXJtYXJ2aXJlbjE2QGdtYWlsLmNvbSIsImRhdGUiOiIyMDI1LTA1LTAyIDAzOjUwOjA5In0.nl56F8Mfc-VUq6LKhqT2_URjeKkR2sxTr7roDaDRavE
-
 
 https://workwithus.lucioai.com/access-check - get req 
-
-header key = Authorization
-
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVmlyZW4gUGFybWFyIiwiZW1haWwiOiJwYXJtYXJ2aXJlbjE2QGdtYWlsLmNvbSIsImRhdGUiOiIyMDI1LTA1LTAyIDAzOjU5OjUxIn0.YGAlyAvDhkoezmqriBhon8z_1kjqDDAZCJTXEBENS-w
-
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVmlyZW4gUGFybWFyIiwiZW1haWwiOiJwYXJtYXJ2aXJlbjE2QGdtYWlsLmNvbSIsImRhdGUiOiIyMDI1LTA1LTAyIDAzOjU5OjUxIn0.YGAlyAvDhkoezmqriBhon8z_1kjqDDAZCJTXEBENS-w
-
-
-Develop and maintain frontend applications using Next.js and React.js
-Optimize applications for speed, performance, and SEO using Next.js features (SSR, SSG, ISR, CSR)
-Implement responsive and accessible UI/UX designs
-Integrate RESTful APIs and GraphQL endpoints
-Work closely with backend developers to ensure seamless data flow
-Write clean, reusable, and maintainable code following best practices
-Strong proficiency in Next.js & React.js
-Experience with TypeScript, CSS
-Knowledge of state management (Redux)
-Familiarity with API integration (REST, GraphQL)
-Understanding of SEO optimization, performance tuning, and caching strategies
-Experience with version control (GitHub, or Bitbucket)
-Familiarity with testing frameworks (Jest, Cypress, or Playwright)
-Understanding of e-commerce
-
 
 cover letter 
 I am a Frontend Developer with over 6 years of experience, including 3+ years of hands-on work with React.js, Redux Toolkit, TypeScript, and Next.js. At Vashishth Technologies, I’ve built and maintained scalable, real-time applications such as ONS Trading and CrSIP, involving WebSocket-based data, arbitrage tools, and Web3 integration. I specialize in clean, maintainable code and responsive, SEO-optimized UI development using modern frameworks. I’m seeking a product-based role where I can contribute to impactful projects and grow in a fast-paced, innovative environment.
@@ -50,6 +23,26 @@ For one major project, I handled the entire frontend setup from scratch — incl
 
 I also coordinate with the backend team for API structure, handle integration, and test for edge cases to ensure a seamless user experience.
 
-
 Two recent projects I’m proud of are CrSIP and ONS Trading, both developed at Vashishth Technologies.
+
+
+Subject: Feedback Request – React JS Developer Application
+
+Hi Team,
+
+Thanks for the update. I’d really appreciate any brief feedback you could share on my profile, as it would help me improve for future opportunities.
+
+Best regards,
+Viren Parmar
+
+
+https://shapeshw.com/
+https://aestheticdigitizingservices.com/
+https://deepakengineers.com/
+https://circuitmasters.in/
+https://phemeconsultancy.com/
+https://www.crsip.finance/
+https://onstrading.com/home
+
+
 

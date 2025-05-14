@@ -12,7 +12,7 @@
 
 - Promises is object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 
-- 1. Callbacks & Callback Hell
+## **Callbacks & Callback Hell
 A callback is a function passed as an argument to another function, executed after the main function completes.
 
 function fetchData(callback) {
@@ -24,7 +24,7 @@ function fetchData(callback) {
 
 fetchData(() => console.log("Processing Data"));
 
-Callback Hell
+## **Callback Hell
 Occurs when multiple nested callbacks make code unreadable and difficult to debug.
 
 function step1(callback) {
@@ -83,7 +83,7 @@ myPromise.then((result) => console.log(result)) // "Operation Successful"
 
   ### ** 3. Promise.all(), Promise.race()**
 
-  Promise.all()
+## **Promise.all()
 Resolves when all promises resolve.
 
 If any promise rejects, the entire Promise.all() rejects.
@@ -95,7 +95,7 @@ Promise.all([p1, p2]).then((results) => console.log(results));
 // ["P1 done", "P2 done"]
 
 
-Promise.race()
+## **Promise.race()
 Resolves/rejects as soon as the first promise resolves/rejects.
 
 const p1 = new Promise((resolve) => setTimeout(() => resolve("P1 done"), 1000));

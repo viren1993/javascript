@@ -12,7 +12,6 @@
 
   above topic send me all in each every details interview related and theory related all this topic
 
-
 - Introduced in ES6, template literals allow embedded expressions inside strings using backticks ` `, replacing traditional string concatenation.
 const name = "John";
 console.log(`Hello, ${name}!`); // "Hello, John!"
