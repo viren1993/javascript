@@ -35,6 +35,7 @@ Thanks for the update. I’d really appreciate any brief feedback you could shar
 Best regards,
 Viren Parmar
 
+https://www.linkedin.com/in/viren-parmar-9b56b9356/
 
 https://shapeshw.com/
 https://aestheticdigitizingservices.com/
@@ -45,4 +46,4 @@ https://www.crsip.finance/
 https://onstrading.com/home
 
 
-
+I am available for the interview Monday to Saturday, between 11:00 AM and 6:00 PM 

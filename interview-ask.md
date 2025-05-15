@@ -22,9 +22,7 @@
 15. enum in typescript 
 16. react router protected 
 17. next js seo level code 
-18. next js server side code and statis side code 
-
-
+18. next js server side code and statis side code
 
 ---------------------------
 react js you have lerne this code 
