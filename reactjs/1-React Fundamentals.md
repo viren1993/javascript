@@ -4,6 +4,16 @@
 - Class Components: ES6 classes that extend React.Component, have lifecycle methods, and use this.state.
 - Functional Components: Simple JS functions, introduced with hooks to manage state and side-effects.
 
+## ** In Functional Components (With Hooks)
+| Method                    | When It's Called                                  | Use Case                           |
+| ------------------------- | ------------------------------------------------- | ---------------------------------- |
+| `constructor()`           | When component is created                         | Set initial state, bind methods    |
+| `componentDidMount()`     | After component is rendered to the DOM            | Fetch data, setup subscriptions    |
+| `componentDidUpdate()`    | After component updates (props/state change)      | Act on DOM changes, fetch new data |
+| `componentWillUnmount()`  | Just before the component is removed from the DOM | Cleanup (timers, subscriptions)    |
+| `shouldComponentUpdate()` | Before re-render; allows you to cancel rendering  | Performance optimization           |
+
+
 Q : What's the difference between class and functional components?
 A: Class components use this, have lifecycle methods, and were the only way to manage state before Hooks. Functional components are cleaner, and with Hooks, can manage state and lifecycle without classes.
 
@@ -60,9 +70,6 @@ if/else
 Ternary (condition ? x : y)
 && operator
 
-Q: How do you conditionally render components in React?
-A: You can use JS logic like ternary operators or logical && to conditionally display elements.
-
 ✅ 7. List Rendering with Keys
 Use .map() to loop through arrays
 Each child should have a unique key prop
@@ -70,13 +77,3 @@ Each child should have a unique key prop
 Q: Why is the key prop important in lists?
 A: Keys help React identify which items have changed, are added, or removed. It optimizes re-renders.
 
-✅ 8. Lifting State Up
-Moving state to the nearest common parent when multiple components need shared data.
-
-Q: What is “lifting state up” in React?
-A: It means moving shared state to a common parent component so sibling components can access or modify it via props.
-
-✅ 9 what is this in react js 
-this usually refers to the current instance of the component.
-
-In functional components, you don’t usually use this. Instead, you use hooks like useState and useEffect.

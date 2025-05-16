@@ -309,3 +309,5 @@ Efficient Rendering
 ## **“Reconciliation is React’s process of efficiently updating the UI by diffing the old and new Virtual DOMs and applying only the minimal real DOM changes.” **
 
 
+
+https://www.linkedin.com/in/zeel-mehta-0b30a888/recent-activity/all/

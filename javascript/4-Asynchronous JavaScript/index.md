@@ -1,5 +1,5 @@
 ## 4. Asynchronous JavaScript
-- **Callbacks & Callback Hell**
+- **Callbacks & .Callback Hell**
 - **Promises**
   - `.then()`, `.catch()`, `.finally()`
   - `Promise.all()`, `Promise.race()`

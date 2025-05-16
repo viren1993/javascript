@@ -25,7 +25,6 @@ I also coordinate with the backend team for API structure, handle integration, a
 
 Two recent projects I’m proud of are CrSIP and ONS Trading, both developed at Vashishth Technologies.
 
-
 Subject: Feedback Request – React JS Developer Application
 
 Hi Team,
@@ -47,3 +46,15 @@ https://onstrading.com/home
 
 
 I am available for the interview Monday to Saturday, between 11:00 AM and 6:00 PM 
+
+
+"I'm genuinely excited about the opportunity to work with your company because of its strong engineering culture and commitment to building user-centric, performant web applications. As a Front-end Engineer with over 6 years of experience, I’ve specialized in React.js, Next.js, and Tailwind CSS—technologies I know your team actively uses to deliver modern, scalable interfaces.
+
+What particularly stands out to me is your focus on solving real-world problems with clean architecture and a performance-first mindset. 
+
+This role aligns perfectly with my passion for building seamless user experiences and shipping production-ready front-ends that are fast, accessible, and maintainable. 
+
+
+VireReact.js, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, SASS, Bootstrap, RizzUI, Redux (Thunk, Saga, Persist), React Query (TanStack), Jotai, Context API, Ethers.js, Web3.js , REST APIs, WebSockets, JWT Authentication, Role-Based Access Control (RBAC) , Webpack, ESLint (custom config), Git, GitHub, Bitbucket
+
+

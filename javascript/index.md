@@ -19,7 +19,6 @@
   - Temporal Dead Zone (TDZ) for `let`/`const`
 - **Closures**
   - Closures allow functions to retain access to their parent scope's variables even after the parent function has executed.
-  - closure - direclty funcation call karis to funcation jase innter funcation data pass kar va mate tane refrecnace pass kar vu padse
 
   - Lexical Scoping (function inside other fucation)
   - Use cases (data privacy, currying, memoization)
@@ -110,6 +109,9 @@
 
 - Garbage Collection
 - Memory Leaks (Global vars, detached DOM, closures)
+  A memory leak occurs when a program fails to release memory that is no longer needed, leading to degraded performance or application crashes over time.
+  1. Uncleared References
+  2. Closures
 
 ## 11. DOM & Browser APIs
 
@@ -121,6 +123,9 @@
 - Web Storage (`localStorage`, `sessionStorage`)
 - Fetch API & AJAX
 - WebSockets
+WebSockets provide a full-duplex, bidirectional communication channel over a single, long-lived TCP connection between client and server.
+Unlike HTTP (which is request-response based), WebSockets allow real-time communication where either side can send data at any time.
+
 - Web Components (Custom Elements, Shadow DOM)
 - Service Workers & PWA
 
@@ -142,7 +147,6 @@ In React, use React.lazy() and Suspense:
 
 - Web Workers (Offloading tasks)
 Use Web Workers to offload CPU-intensive tasks (e.g., image processing, parsing large files, data crunching) from the main thread to prevent UI freezing.
-
 
 ## 13. Security
 
@@ -212,9 +216,6 @@ Run tests automatically or during CI/CD
 1. Garbage Collection
    JavaScript has automatic memory management through Garbage Collection (GC). The Mark-and-Sweep algorithm removes unused objects from memory.
 
-2. Memory Leaks (Causes & Prevention)
-   Common Memory Leaks:
-
 3. Global Variables:
    Problem: Data stored in global variables isn’t collected.
    Solution: Use let/const and avoid unnecessary globals.
@@ -234,7 +235,6 @@ Run tests automatically or during CI/CD
 2. Web Storage (localStorage & sessionStorage).
 
 3. Fetch API & AJAX
-4. WebSockets
 
 - Promises is object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 - Callback is a function passed as an argument to another function
@@ -461,7 +461,6 @@ Array Spread (...)
 - for/of - loops through the values of an iterable object
 - while - loops through a block of code while a specified condition is true
 - do/while - also loops through a block of code while a specified condition is true
-
 
 ## **Break**
 -- The break statement "jumps out" of a loop.

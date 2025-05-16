@@ -36,9 +36,9 @@ useEffect(() => {
 }, [dependency]);
 
 Q: How does useEffect replace lifecycle methods?
-A: useEffect(() => {}, []) = componentDidMount,
-useEffect(() => {}, [dep]) = componentDidUpdate,
-return () => {} = componentWillUnmount.
+A: useEffect(() => {}, []) = componentDidMount, // without dependency
+useEffect(() => {}, [dep]) = componentDidUpdate, // with dependency
+return () => {} = componentWillUnmount. // return pass 
 
 3️⃣ useContext
 Access context values without prop drilling
@@ -131,12 +131,10 @@ const expensiveCalculation = (num) => {
 
 function MyComponent({ num }) {
   const calculated = useMemo(() => expensiveCalculation(num), [num]);
-
   return <div>{calculated}</div>;
 }
 
 ✅ Prevents expensiveCalculation from running unnecessarily.
-
 
 ✅ React.memo – Example
 const Child = React.memo(({ value }) => {

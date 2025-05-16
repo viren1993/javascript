@@ -36,9 +36,9 @@
   Lazy Loading - Instead of loading all the assets at once, the non-critical assets can be loaded on a need basis.
 
 13. What are the different kinds of Doctypes available?
- - Strict Doctype 
- - Transitional Doctype
- - Frameset Doctype
+ - Strict Doctype Purpose: Used when you want to write clean, standards-compliant HTML, without any deprecated tags or attributes.
+ - Transitional Doctype Purpose: Allows the use of both modern and deprecated HTML elements and attributes. It’s a "transition" from older HTML practices to modern standards.
+ - Frameset Doctype Purpose: Used when a webpage uses <frameset> instead of <body>. Frames allow multiple HTML documents to be displayed in the same browser window.
 
 20. Is it possible to change an inline element into a block level element?
 Yes, it is possible using the “display” property with its value as “block”, to change the inline element into a block-level element.
@@ -237,16 +237,12 @@ Why yarn.lock or package-lock.json file is required?
 These files:
 
 Lock exact versions of dependencies
-
 Ensure same version is installed in every environment (local, staging, prod)
-
 Avoid unexpected bugs due to auto-updated dependencies
 
 ✅ Benefits:
 Predictable builds
-
 Safer deployment
-
 Easier debugging
 
 fronted side CSRF 
