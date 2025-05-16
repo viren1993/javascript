@@ -29,7 +29,7 @@
 - **`this` Keyword**
   - he value of this depends on how a function is called.
   - Rules for this
-    Scenario	                              Value of this
+    Scenario                              Value of this
     Global Scope	                          window (in browsers) or global (Node.js)
     Object Method	                          The object that called the method
     Function (Strict Mode)	                undefined

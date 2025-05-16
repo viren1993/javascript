@@ -8,10 +8,7 @@ Previously, I’ve worked with Accelerated Business Solutions and PeaceInfotech,
 
 I value clean, maintainable code, component-based architecture, and collaborative development environments. I’m now seeking opportunities in product-based companies where I can work on impactful projects and continue growing in a fast-paced, innovative setting.
 
-BRKPP9161P
-
-https://workwithus.lucioai.com/access-check - get req 
-
+--------------------
 cover letter 
 I am a Frontend Developer with over 6 years of experience, including 3+ years of hands-on work with React.js, Redux Toolkit, TypeScript, and Next.js. At Vashishth Technologies, I’ve built and maintained scalable, real-time applications such as ONS Trading and CrSIP, involving WebSocket-based data, arbitrage tools, and Web3 integration. I specialize in clean, maintainable code and responsive, SEO-optimized UI development using modern frameworks. I’m seeking a product-based role where I can contribute to impactful projects and grow in a fast-paced, innovative environment.
 
@@ -55,6 +52,6 @@ What particularly stands out to me is your focus on solving real-world problems 
 This role aligns perfectly with my passion for building seamless user experiences and shipping production-ready front-ends that are fast, accessible, and maintainable. 
 
 
-VireReact.js, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, SASS, Bootstrap, RizzUI, Redux (Thunk, Saga, Persist), React Query (TanStack), Jotai, Context API, Ethers.js, Web3.js , REST APIs, WebSockets, JWT Authentication, Role-Based Access Control (RBAC) , Webpack, ESLint (custom config), Git, GitHub, Bitbucket
+React.js, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, SASS, Bootstrap, RizzUI, Redux (Thunk, Saga, Persist), React Query (TanStack), Jotai, Context API, Ethers.js, Web3.js , REST APIs, WebSockets, JWT Authentication, Role-Based Access Control (RBAC) , Webpack, ESLint (custom config), Git, GitHub, Bitbucket
 
 

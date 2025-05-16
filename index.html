@@ -208,6 +208,42 @@
   }
   const output = openOrSenior(input);
   console.log(output); // ["Open", "Open", "Senior", "Open", "Open", "Senior"]
+
+  input nums = [1, 2, 3, 4]
+output [24, 12, 8, 6]
+
+function productExceptSelf(nums) {
+  const result = [];
+  const totalProduct = nums.reduce((acc, num) => acc * num, 1);
+
+  for (let i = 0; i < nums.length; i++) {
+    result.push(totalProduct / nums[i]);
+  }
+
+  return result;
+}
+
+console.log(productExceptSelf([1, 2, 3, 4])); // Output: [24, 12, 8, 6]
+
+function flattens(arr) {
+  const result = [];
+
+  function flatten(item) {
+    for (let el of item) {
+      if (Array.isArray(el)) {
+        flatten(el); // Recursive call
+      } else {
+        result.push(el);
+      }
+    }
+  }
+
+  flatten(arr);
+  return result.sort((a, b) => a - b); // Sort in ascending order
+}
+
+console.log(flattens([[1, 2], [3, [4, 5]]]));
+// Output: [1, 2, 3, 4, 5]
 </script>
 
 </html>

@@ -67,6 +67,11 @@ Task 5
 53. Questions on higher order components
 54. Questions on children and render props
 55. Some Basic questions on Jest/ React Testing Library
+javascript web design
+javascript structure
+react js nagative point list
+async defer
+split components react - page to divided to mutiple components 
 
 --------------------------------------------------------------------------------------------------------
 React.js Interview Questions and Answers
