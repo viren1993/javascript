@@ -524,4 +524,13 @@ say.apply(user, ["Hello"]); // "Hello, Bob"
 const boundSay = say.bind(user, "Hey");
 boundSay(); // "Hey, Bob"
 
+Q1: What are WeakMap and WeakSet in JavaScript?
+✅ WeakMap and WeakSet store weakly held objects, meaning they don’t prevent garbage collection. WeakMap holds key-value pairs where keys are objects, while WeakSet stores unique objects. They are useful for caching and memory-efficient object tracking.
+
+Q2: What is the difference between setTimeout and requestAnimationFrame?
+✅ setTimeout schedules a function to run after a specified delay, but it isn’t precise due to browser task scheduling. requestAnimationFrame synchronizes code execution with the browser’s refresh rate (typically 60 FPS), making it ideal for smooth animations.
+
+Q3: What is the purpose of the Symbol data type?
+✅ Symbols are unique, immutable identifiers used to create private object properties that won’t accidentally conflict with other keys in an objec
+
 

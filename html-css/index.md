@@ -193,7 +193,6 @@ Ensures:
 | Connection Reuse | Limited                        | Efficient, fewer TCP connections        |
 
 
-
 | Feature        | PostgreSQL (SQL)        | Node.js with SQL         | MongoDB (NoSQL)                 |
 | -------------- | ----------------------- | ------------------------ | ------------------------------- |
 | Data Type      | Relational (Structured) | Backend with SQL support | Document (Flexible JSON)        |
@@ -201,16 +200,6 @@ Ensures:
 | Query Language | SQL                     | SQL via JS libraries     | JavaScript-style queries        |
 | Best For       | Structured data, joins  | Full backend integration | Fast-changing/unstructured data |
 | Scaling        | Vertical (mostly)       | Depends on DB            | Horizontal (built-in)           |
-
-
-what cutom hook
-why used that
-konsi jaga used nahi kar sakta he cutom hook
-Virtual DOM? 
-
-whay is why used 
-Virtual DOM updated real dome all commpareded real copy DOM
-How it works:
 
 SOLID Principles (Designed Method)
 SOLID is a set of 5 design principles for writing clean, maintainable code.
@@ -222,31 +211,64 @@ I – Interface Segregation Principle
 D – Dependency Inversion Principle
 
 Mirco frontend explain 
-Micro frontend is a design approach where a frontend app is split into smaller, independent pieces, each developed and deployed separately like microservices.
+✅ Micro frontend is a design approach where a frontend app is split into smaller, independent pieces, each developed and deployed separately like microservices.
 
-✅ How it works:
-Each team works on a feature or module independently
+Q1: What is the difference between div and span?
+✅ div is a block-level element, while span is an inline element used for styling parts of text within a block.
 
-Modules are integrated at runtime using iframes, Webpack Module Federation, or iframe-less approaches
+Q2: What are semantic HTML elements?
+✅ These are elements that clearly describe their meaning, like <header>, <article>, <section>, and <footer>, improving accessibility and SEO.
 
-Good for large apps, independent deployments, and team scaling
+Q3: What is the difference between localStorage, sessionStorage, and cookies?
+✅ localStorage persists until manually cleared, sessionStorage lasts for the session, and cookies are sent to the server with requests.
 
-how to work
-what is yarn 
-Why yarn.lock or package-lock.json file is required?
-These files:
+Q4: How does the browser render a webpage?
+✅ The process includes parsing HTML, building the DOM & CSSOM, creating the render tree, layout calculation, and painting to the screen.
 
-Lock exact versions of dependencies
-Ensure same version is installed in every environment (local, staging, prod)
-Avoid unexpected bugs due to auto-updated dependencies
+Q1: What is the difference between relative, absolute, fixed, and sticky positioning?
+✅ relative moves relative to itself, absolute positions relative to its nearest positioned ancestor, fixed stays fixed in the viewport, and sticky toggles between relative and fixed based on scroll.
 
-✅ Benefits:
-Predictable builds
-Safer deployment
-Easier debugging
+Q2: What are pseudo-elements and pseudo-classes?
+✅ Pseudo-elements (::before, ::after) style specific parts of an element, while pseudo-classes (:hover, :nth-child()) target elements based on state or structure.
 
-fronted side CSRF 
-why what how 
+Q3: What is the difference between rem, em, %, and px?
+✅ px is fixed, em is relative to the parent element, rem is relative to the root element, and % is relative to its container.
 
-Unit testing
-what why how
+Q4: How do CSS Grid and Flexbox differ?
+✅ Flexbox is best for one-dimensional layouts (rows or columns), while Grid is for two-dimensional layouts (rows and columns).
+
+Q1: What is the difference between == and === in JavaScript?
+✅ == checks for value equality with type conversion, while === checks for both value and type equality.
+
+Q2: What are closures in JavaScript?
+✅ A closure is a function that remembers the variables from its outer scope even after the outer function has finished executing.
+
+Q3: What is event delegation?
+✅ It’s a technique where a parent element handles events for its child elements, improving performance and reducing event listeners.
+
+Q4: Explain the difference between var, let, and const.
+✅ var has function scope, let and const have block scope. const cannot be reassigned, while let can.
+
+Q1: What is the difference between Promise.then() and async/await?
+✅ Promise.then() uses chaining, while async/await makes asynchronous code look synchronous and is easier to read.
+
+Q2: What is the event loop in JavaScript?
+✅ The event loop handles asynchronous operations by executing code in the Call Stack, moving async tasks to the Task Queue, and pushing them back when ready.
+
+Q3: How do setTimeout() and setInterval() work?
+✅ setTimeout() delays execution once, while setInterval() repeatedly runs a function at a fixed interval.
+
+Q4: What are Web Workers?
+✅ Web Workers allow running JavaScript in background threads, improving performance for CPU-intensive tasks.
+
+Q1: What is web accessibility (a11y)?
+✅ Designing web applications that are usable for people with disabilities, following WCAG (Web Content Accessibility Guidelines).
+
+Q2: What are ARIA roles, and why are they used?
+✅ ARIA (Accessible Rich Internet Applications) roles help assistive technologies understand web elements (e.g., role="alert", role="dialog").
+
+Q3: How do you make a website keyboard accessible?
+✅ Use proper HTML elements (button, a), avoid tabindex misuses, and ensure focus indicators are visible.
+
+Q4: How do you test web accessibility?
+✅ Use tools like Lighthouse, axe, NVDA screen reader, and manual testing with keyboard navigation.
