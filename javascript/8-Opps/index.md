@@ -3,7 +3,6 @@
 - Polymorphism (Method Overriding)
 - Abstraction (Simulated via `throw` in parent class)
 
-
  Object Literal
 
  - Constructor function
@@ -12,13 +11,6 @@
  - Instances (new, this)
 
 ## Pillars 
- - Abstraction - deatails hide kar na  - (fetch api call kar se kar just background prosess)
- - Encapsulation - encapsulation is wrapping up of data in method and funcation hide kar diya jo access jo kar na wo kar ne diya   
- - inheritance - 
- - Polymorphism - Poly is many - morphism sawaroop - 1 method mutiple roop just like console log  above topic send me all in each every details interview related and theory related all this topic 
-
- Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects that encapsulate both data and behavior.
-
 Four Pillars of OOP
 Abstraction – Hiding implementation details and exposing only what’s necessary.
 Encapsulation – Wrapping data & methods inside a class.

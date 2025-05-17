@@ -216,5 +216,3 @@ const c = new Counter(); // Increments count correctly
 6. What are call(), apply(), and bind()? Give examples.
 7. Why do arrow functions behave differently with this?
 8. How does new affect function execution and this?
-
-https://github.com/yangshun/top-javascript-interview-questions?tab=readme-ov-file#explain-the-concept-of-hoisting-in-javascript

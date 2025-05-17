@@ -117,7 +117,7 @@
 
 - Event Handling
   - Bubbling/Capturing
-    - Bubbling: Events propagate from child → parent.
+    - Bubbling Events propagate from child → parent.
     - Capturing: Events propagate from parent → child
 - Event Delegation
 - Web Storage (`localStorage`, `sessionStorage`)
@@ -532,5 +532,16 @@ Q2: What is the difference between setTimeout and requestAnimationFrame?
 
 Q3: What is the purpose of the Symbol data type?
 ✅ Symbols are unique, immutable identifiers used to create private object properties that won’t accidentally conflict with other keys in an objec
+
+| Feature     | JSON                       | XML                              |
+| ----------- | -------------------------- | -------------------------------- |
+| Format      | JavaScript Object Notation | Markup language                  |
+| Read Method | `res.json()`               | `res.text()` → `DOMParser`       |
+| Usability   | Native to JavaScript       | Must parse manually              |
+| Reducer Use | Same pattern for both      | Just structure the parsed object |
+
+
+How Does JavaScript Work?
+JavaScript is a programming language that runs in your browser (like Chrome, Firefox, etc.) or on servers (with environments like Node.js). Here's how it typically works in a web page:
 
 

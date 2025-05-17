@@ -301,3 +301,25 @@ class ErrorBoundary extends React.Component {
 31. What are Portals in React?
 - Used to render components outside the main DOM tree.
 ReactDOM.createPortal(<Modal />, document.getElementById("modal-root"));
+
+how to handle render code
+
+import ReactDOM from 'react-dom/client';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+
+| Type                     | Method                                    |
+| ------------------------ | ----------------------------------------- |
+| Basic Rendering          | `return JSX`                              |
+| Conditional Rendering    | `if` or ternary (`? :`)                   |
+| List Rendering           | `array.map()` with `key` prop             |
+| State-based Rendering    | Use `useState()` + `setState()`           |
+| API Data Rendering       | Use `useEffect()` + fetch + render        |
+| Render Props             | Pass render functions to child components |
+| Error / Loading Handling | Use conditionals with `if/else`           |
+
+
+
+
+

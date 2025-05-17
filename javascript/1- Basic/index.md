@@ -46,7 +46,7 @@ console.log(null == undefined); // true (they are loosely equal)
 == (Loose Equality) allows type coercion.
 === (Strict Equality) does not allow type coercion.
 
-#### **2. Scopes & Scope Chain** 
+#### **2. Scopes & Scope Chain**
 Scope determines the accessibility of variables in JavaScript.
 
 ### **2.1 Types of Scope**
@@ -112,11 +112,4 @@ Why use strict mode?
 2. Eliminates this binding to window in functions
 3. Catches silent errors
 4. Prevents duplicate parameter names in functions
-
-
-
-
-
-
-
 

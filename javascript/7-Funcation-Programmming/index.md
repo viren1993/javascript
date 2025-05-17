@@ -4,8 +4,7 @@
 - Immutability
 - Currying & Composition
 
-
-  above topic send me all in each every details interview related and theory related all this topic
+above topic send me all in each every details interview related and theory related all this topic
 
 ### **Functional Programming**
 
