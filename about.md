@@ -54,6 +54,6 @@ This role aligns perfectly with my passion for building seamless user experience
 
 React.js, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, SASS, Bootstrap, RizzUI, Redux (Thunk, Saga, Persist), React Query (TanStack), Jotai, Context API, Ethers.js, Web3.js , REST APIs, WebSockets, JWT Authentication, Role-Based Access Control (RBAC) , Webpack, ESLint (custom config), Git, GitHub, Bitbucket
 
-React.js, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, SASS, Bootstrap, RizzUI, Redux (Thunk, Saga, Persist), React Query (TanStack), Jotai, Context API, Ethers.js, Web3.js , REST APIs, WebSockets, Git, GitHub, Bitbucket
+React.js, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, SASS, Bootstrap, RizzUI, Redux (Thunk, Saga, Persist), Jotai, Context API, Ethers.js, Web3.js , REST APIs, WebSockets, Git, GitHub, Bitbucket
 
 

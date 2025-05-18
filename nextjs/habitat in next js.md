@@ -88,10 +88,5 @@ export function middleware(req) {
 Next.js doesn’t have a "Habitat" feature per se, but you can achieve similar results with:
 
 Env vars for environment-specific setups.
-
 Multi-zone for micro-frontends.
-
 ISG + Dynamic routes for contextual content.
-
-Need help implementing a specific approach? Let me know! 🛠️
-

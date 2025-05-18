@@ -1,5 +1,5 @@
 1. What is TypeScript and how is it different from JavaScript?
-Answer: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It offers optional static typing, interfaces, enums, and compile-time checking. This helps catch errors earlier in development compared to JavaScript, which is dynamically typed.
+Answer: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It offers optional static typing, interfaces, enums, and compile-time checking. This helps catch errors earlier in development compared to x, which is dynamically typed.
 
 2. What are the advantages of using TypeScript?
 Answer:

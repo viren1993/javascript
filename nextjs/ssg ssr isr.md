@@ -91,7 +91,6 @@ export async function getStaticProps() {
   };
 }
 
-
 SSG vs ISG Comparison
 Feature	SSG	ISG
 Build Time	All pages built at deploy	Only initial pages built

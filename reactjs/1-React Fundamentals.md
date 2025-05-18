@@ -13,7 +13,6 @@
 | `componentWillUnmount()`  | Just before the component is removed from the DOM | Cleanup (timers, subscriptions)    |
 | `shouldComponentUpdate()` | Before re-render; allows you to cancel rendering  | Performance optimization           |
 
-
 Q : What's the difference between class and functional components?
 A: Class components use this, have lifecycle methods, and were the only way to manage state before Hooks. Functional components are cleaner, and with Hooks, can manage state and lifecycle without classes.
 
