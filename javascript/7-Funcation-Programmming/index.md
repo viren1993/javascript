@@ -10,7 +10,7 @@ above topic send me all in each every details interview related and theory relat
 
 Functional programming is a programming paradigm based on pure functions and avoiding shared state, mutable data, and side effects. It emphasizes immutability, first-class functions, and higher-order functions to improve modularity, testability, and parallelism.
 
-1. Pure Functions
+### ** 1. Pure Functions
 
 Always produces the same output for the same input.
 
@@ -44,7 +44,7 @@ Code Reusability: Functions can be passed as arguments, making code more modular
 Less Code, More Power: Reduce duplication with functions like map, filter, and reduce.
 Encapsulation: Business logic can be separated into smaller functions
 
-3. Immutability
+### **Immutability
 Immutability means not changing the state of an object after it is created. Instead of modifying existing objects, we create new objects with the updated values.
 
 Example (JavaScript - Avoiding Mutation with spread operator):

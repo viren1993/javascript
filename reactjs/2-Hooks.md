@@ -16,14 +16,14 @@ A Hook is a special function in React that lets you “hook into” React featur
 | `useDebugValue`       | Debugging custom hooks                                           |
 
  
-1️⃣ useState
+### **useState
 - Adds state to functional components
 - Returns an array with current state and a setter function
 
 Q: What is useState in React?
 A: It’s a Hook that allows you to add local state to functional components.
 
-2️⃣ useEffect
+### **useEffect
 Handles side effects like API calls, subscriptions, timers
 Can mimic componentDidMount, componentDidUpdate, and componentWillUnmount
 
@@ -40,7 +40,7 @@ A: useEffect(() => {}, []) = componentDidMount, // without dependency
 useEffect(() => {}, [dep]) = componentDidUpdate, // with dependency
 return () => {} = componentWillUnmount. // return pass 
 
-3️⃣ useContext
+### **seContext
 Access context values without prop drilling
 Used with React.createContext
 
@@ -62,7 +62,7 @@ function Child() {
 Q: What’s the purpose of useContext?
 A: It helps avoid prop drilling by accessing context directly in a component.
 
-4️⃣ useReducer
+### **useReducer
 useReducer is a React Hook used for managing complex state logic in functional components. It's a good alternative to useState when you have multiple related state values or need more predictable state transitions (like in a Redux-style reducer pattern).
 
 const [state, dispatch] = useReducer(reducer, initialState)
@@ -91,7 +91,7 @@ export default function App() {
   );
 }
 
-5️⃣ useRef
+### **useRef
 Holds a mutable reference that doesn’t trigger re-renders
 Used to reference DOM nodes or store values between renders
 
@@ -102,7 +102,7 @@ const inputRef = useRef(null);
 Q: What’s the difference between useRef and useState?
 A: useRef holds values that persist without triggering re-renders.
 
-6️⃣ useMemo - (perticuler value store the not redering the again an again)
+### **useMemo - (perticuler value store the not redering the again an again)
 Memoizes a computed value 
 Prevents expensive recalculations on every render
 (unnecessary rerender value)
@@ -122,7 +122,7 @@ Syntax                     | useMemo(() => computeExpensive(), [deps])          
 Re-render trigger          | Re-runs only if dependencies change                | Re-renders only if props have changed
 Use Case                   | Avoid recalculating expensive functions            | Avoid re-rendering unchanged child components
 
-✅ useMemo – Example
+### **useMemo – Example
 
 const expensiveCalculation = (num) => {
   console.log("Calculating...");
@@ -136,7 +136,7 @@ function MyComponent({ num }) {
 
 ✅ Prevents expensiveCalculation from running unnecessarily.
 
-✅ React.memo – Example
+### **React.memo – Example
 const Child = React.memo(({ value }) => {
   console.log("Child rendered");
   return <p>{value}</p>;
@@ -155,7 +155,7 @@ function Parent() {
 Use **React.memo** to prevent unnecessary re-renders of components.
 Use **useMemo** to prevent unnecessary re-calculations of values.
 
-7️⃣ useCallback
+### **useCallback
 Memoizes functions
 Prevents unnecessary re-creations of the function on every render
 
@@ -167,11 +167,9 @@ Q: When to use useCallback?
 A: When passing functions as props to memoized components to avoid unnecessary re-renders.
 
 
-✅ Custom Hooks
+### **Custom Hooks
 🔍 What is a Custom Hook?
-A reusable function starting with use
-Composes built-in hooks
-Promotes reusability, maintainability, and readability
+A reusable function starting with use Composes built-in hooks Promotes reusability, maintainability, and readability
 
 Q: Why use custom hooks in React?
 A: To abstract logic that is reused across components—improves code clarity and separation of concerns.
@@ -188,10 +186,3 @@ function useLocalStorage(key, initialValue) {
 
   return [value, setValue];
 }
-
-🛠️ Practical: ToDo App Using Major Hooks
-
-Features:
-Add, delete, toggle todos
-Local storage integration
-Custom Hook for storage

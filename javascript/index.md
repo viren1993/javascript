@@ -11,7 +11,7 @@
   - Global, Function, Block Scope (`var`, `let`, `const`)
   - Lexical Environment
   - Strict Mode (`"use strict"`)
-
+ 
 ## 2. Functions & Execution Context
 
 - **Hoisting** - (function or variable before it is declared in the code.)
@@ -151,7 +151,7 @@ Use Web Workers to offload CPU-intensive tasks (e.g., image processing, parsing 
 ## 13. Security
 
 - XSS Prevention
-🔹 Q4: How do you prevent XSS (Cross-Site Scripting) in React?
+Q4: How do you prevent XSS (Cross-Site Scripting) in React?
 Avoid using dangerouslySetInnerHTML unless absolutely necessary.
 Sanitize inputs and server responses.
 Use libraries like DOMPurify for sanitization.
@@ -544,4 +544,61 @@ Q3: What is the purpose of the Symbol data type?
 How Does JavaScript Work?
 JavaScript is a programming language that runs in your browser (like Chrome, Firefox, etc.) or on servers (with environments like Node.js). Here's how it typically works in a web page:
 
+* Promgrom algoritham - what why 
+* Algorithms analysis
+  - Time complexity - Amount of time taken by an algorithm to run as a funcation of input size
+  - space complexity - amount of memmory taken by an algorithm to run as a function input size
+* How to represent complexity?
+  Asymptotic notations
+  - Mathematical tools to represent time and space complexity
+  1. Big-O Notation (O-notation) - Worst case complexity
+  2. Omega Notation (Ω-notation) - Best case complexity
+  3. Theta Notation (Θ-notation) - Average case complexity
+
+Big-O Notation 
+The worst case complexity of an algorithm is represented using the Big-O notation
+Big-O notation describes the complexity of an algorithm using algebraic terms
+  It has two important characteristics
+  - It is expressed in terms of the input
+  - It focuses on the bigger picture without getting caught up in the minute details
+
+function summation(n) { ------------ n = 4
+  let sum = 0;  --------------- 1
+  for(let i = 1; i <= n; i++) {  
+    sum += i; -------------- 4
+  }
+  return sum; ---------------- 1
+}
+
+n + 2
+4 + 2
+
+depading upon time count
+two for loop quadratic 
+three cubic
+
+Space complexity  
+  - O(1) - constant
+  - O(n) - Linear
+  - O(logn) - Logarithmic
+
+- Object big - 0
+
+insert - o(1)
+remove - O(1)
+access 0(1)
+serarch - (0)n
+Objetc.key() 0(n)
+Objetc.values() 0(n)
+Objetc.entries() 0(n)
+
+Array - Big - 0
+An array is an ordered collection of values
+Insert / remove at end - O(1)
+Insert/ remove at beginning - O(n)
+Access - O(1)
+Search - O(n)
+Push/pop-0(1)
+Shift/unshift/concat/slice/splice - O(n)
+forEach/map/filter/reduce - O(n)
 

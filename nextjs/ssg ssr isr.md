@@ -98,3 +98,6 @@ Updates	Requires full rebuild	Revalidates in the background
 Performance	Fastest	Slightly slower (if regenerating)
 Use Case	Fully static content	Semi-dynamic content
 Example	Blog, Docs	News, E-commerce
+
+✅ SSR (Server-Side Rendering)
+SSR stands for Server-Side Rendering, a technique used in web development where HTML is generated on the server and sent to the client (browser), instead of relying entirely on the browser (client-side) to render the page.

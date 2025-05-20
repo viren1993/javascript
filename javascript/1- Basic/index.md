@@ -35,16 +35,70 @@ Common Issue: typeof null returns "object" due to a long-standing bug in JavaScr
 
 ### **1.4 Type Coercion (== vs ===)**
 Type coercion happens when JavaScript implicitly converts one data type to another.
+== (Loose Equality) allows type coercion.
+=== (Strict Equality) does not allow type coercion.
 
-console.log(5 + "5"); // "55" (number + string → string)
-console.log("5" - 2); // 3 (string → number)
 console.log(5 == "5"); // true (loose equality allows type coercion)
 console.log(5 === "5"); // false (strict equality does not allow type coercion)
 console.log(false == 0); // true (false coerces to 0)
 console.log(null == undefined); // true (they are loosely equal)
 
-== (Loose Equality) allows type coercion.
-=== (Strict Equality) does not allow type coercion.
+### *
+console.log(5 + "5"); // "55" (number + string → string)
+console.log("5" - 2); // 3 (string → number)
+
+### *[] === []
+Result: false
+Explanation: Two different arrays are never strictly equal, even if they have the same content.
+They're stored at different memory addresses (references).
+
+### *[] == []
+Result: false
+Explanation: Like the first one, these are two different array objects, compared by reference.
+
+### *undefined === undefined
+Result: true
+Explanation: Both are the same primitive type and value.
+So they are strictly equal.
+
+### *undefined == undefined
+Result: true
+Explanation: Even with loose comparison, they are the same type and value.
+
+### *isNaN === isNaN
+Result: true
+Explanation: isNaN is a function, and both sides refer to the same built-in function.
+So this comparison returns true.
+
+If you meant NaN === NaN, see below — it would be false.
+
+### *isNaN == isNaN
+Result: true
+Explanation: Again, it's the same function on both sides, so it's equal — even with ==.
+
+But again, if you meant NaN == NaN, the result is false.
+
+### *null === null
+Result: true
+Explanation: null is a primitive and there's only one null value in JS.
+Same type, same value.
+
+### *null == null
+Result: true
+Explanation: Even with loose comparison, null is always equal to null.
+
+| Expression                | Result | Explanation                   |
+| ------------------------- | ------ | ----------------------------- |
+| `[] === []`               | false  | Different references          |
+| `[] == []`                | false  | Different references          |
+| `undefined === undefined` | true   | Same primitive type and value |
+| `undefined == undefined`  | true   | Same value                    |
+| `isNaN === isNaN`         | true   | Same built-in function        |
+| `isNaN == isNaN`          | true   | Same function                 |
+| `null == null`            | true   | Same primitive value          |
+| `null === null`           | true   | Same primitive value          |
+| `5 + "5"`                 | 55     | number + string → string      |
+| `"5" - 2`                 | 3      | string → number               |
 
 #### **2. Scopes & Scope Chain**
 Scope determines the accessibility of variables in JavaScript.

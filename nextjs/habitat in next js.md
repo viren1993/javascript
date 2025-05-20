@@ -90,3 +90,7 @@ Next.js doesn’t have a "Habitat" feature per se, but you can achieve similar r
 Env vars for environment-specific setups.
 Multi-zone for micro-frontends.
 ISG + Dynamic routes for contextual content.
+
+
+Micro-Frontend real work 
+

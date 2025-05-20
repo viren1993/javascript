@@ -11,14 +11,14 @@ What is Hoisting?
 var vs Function Hoisting
 Hoisting is JavaScript's behavior of moving declarations to the top of their scope before code execution.
 
-1.1 - var Hoisting:
+## *var Hoisting:
 console.log(myVar); // undefined (not ReferenceError)
 var myVar = 5;
 console.log(myVar); // 5
 
 **** var myVar undefined show and let myVar error show Cannot access 'myVar' before initialization
 
-Function Hoisting:
+## *Function Hoisting:
 foo(); // "Hello" - works because function declaration is hoisted
 
 function foo() {
@@ -29,6 +29,8 @@ bar(); // TypeError: bar is not a function
 var bar = function() {
   console.log("Bar");
 };
+
+## *const and let not Hoisting
 
 Function declarations are fully hoisted (name and body)
 Function expressions (like var bar = function() {}) follow var hoisting rules
@@ -66,7 +68,7 @@ Even though outer() has finished execution, myFunc still retains access to name.
 
 Use Cases of Closures
 
-1. Data Privacy (Encapsulation)
+## *1. Data Privacy (Encapsulation)
  - Closer can be used to create private varibles
 
 function counter() {
@@ -90,7 +92,7 @@ myCounter.increment(); // 1
 myCounter.increment(); // 2
 myCounter.decrement(); // 1
 
-2. Currying
+## *2. Currying
 
 Currying is a technique where a function returns another function.
 
@@ -103,7 +105,7 @@ function multiply(x) {
 const double = multiply(2);
 console.log(double(5)); // 10
 
-3. Memoization (Caching)
+## *3. Memoization (Caching)
 
 Improves performance by storing computed results.
 

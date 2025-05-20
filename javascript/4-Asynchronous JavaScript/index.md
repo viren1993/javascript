@@ -81,7 +81,7 @@ myPromise.then((result) => console.log(result)) // "Operation Successful"
   .catch((error) => console.log(error))  // "Operation Failed" (if rejected)
   .finally(() => console.log("Execution Done")); 
 
-  ### ** 3. Promise.all(), Promise.race()**
+### ** 3. Promise.all(), Promise.race()**
 
 ## **Promise.all()
 Resolves when all promises resolve.
@@ -158,7 +158,7 @@ MutationObserver
 
 Before any macro-task runs, the event loop clears out all microtasks.
 
-Microtasks vs Macrotasks
+## **Microtasks vs Macrotasks
 
 ### **Microtasks (Promise.then(), queueMicrotask())	
 Higher priority, executes first	
@@ -194,7 +194,3 @@ console.log("Start");
 queueMicrotask(() => console.log("Microtask Executed"));
 console.log("End");
 
-// Output:
-// Start
-// End
-// Microtask Executed
