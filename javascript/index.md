@@ -62,6 +62,7 @@
 - `.then() - resolved `, `.catch() - rejected`, `.finally() - success or failure`
 - `Promise.all()` - Resolves when all promises resolve. , any promise rejects, the entire Promise.all() rejects
   `Promise.race()` - first promise resolves/rejects.
+- Promise chain method mutiple Promise conntect   .then().then().then ----------
 - **`async/await`**
 - **Event Loop**
   - Microtasks vs Macrotasks

@@ -101,3 +101,17 @@ Example	Blog, Docs	News, E-commerce
 
 ✅ SSR (Server-Side Rendering)
 SSR stands for Server-Side Rendering, a technique used in web development where HTML is generated on the server and sent to the client (browser), instead of relying entirely on the browser (client-side) to render the page.
+
+⚙️ What's Happening Under the Hood
+User Requests Page: When a user visits /news, Next.js runs getServerSideProps on the server.
+Server Fetches Data: The server fetches the latest data (e.g., from an API or database).
+Render HTML on Server: The React component is rendered into HTML using the fetched data.
+Send to Browser: The fully-rendered HTML is sent to the client, improving SEO and load time for dynamic content.
+Hydration: React takes over the page on the client side for interactivity.
+
+
+💧 Hydration Process
+Server sends HTML + JSON: The server renders the page as HTML and sends it along with serialized data (props).
+React loads on the client: React JavaScript bundle runs in the browser.
+Reacts matches the HTML: React “hydrates” the static HTML by attaching event listeners and making it a full React app.
+Now interactive: The page is now fully functional — users can click, navigate, etc.

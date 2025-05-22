@@ -48,6 +48,30 @@ Both can describe object shapes.
 interface can be extended or merged.
 type is more flexible (can create unions, tuples, etc.).
 
+1. Union Types (|)
+A union type allows a variable, prop, or state to be one of several types.
+Useful for handling multiple possible data formats.
+
+type Status = "loading" | "success" | "error"; // Union of literal strings
+
+function Component({ status }: { status: Status }) {
+  if (status === "loading") return <Spinner />;
+  if (status === "error") return <ErrorPage />;
+  return <Data />;
+}
+
+// Usage
+<Component status="loading" />; // ✅ Valid
+<Component status="pending" />; // ❌ Error: Not in the union
+
+type Data = string | number | null;
+
+2. Tuple Types ([T1, T2, ...])
+A tuple is an array with fixed length and known types at each position.
+Common in React for state pairs (e.g., [state, setState]).
+
+type StringNumberPair = [string, number];
+
 interface A { x: number }
 interface B extends A { y: number }
 

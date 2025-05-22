@@ -94,7 +94,6 @@ const p2 = new Promise((resolve) => setTimeout(() => resolve("P2 done"), 2000));
 Promise.all([p1, p2]).then((results) => console.log(results)); 
 // ["P1 done", "P2 done"]
 
-
 ## **Promise.race()
 Resolves/rejects as soon as the first promise resolves/rejects.
 

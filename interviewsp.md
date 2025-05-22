@@ -173,10 +173,13 @@ Prefetch links with <Link prefetch />
 | **Next.js Routing**     | How do you implement dynamic + nested routes? |
 | **Optimization**        | Explain tree-shaking or bundle analysis       |
 
-
-Redux Saga and Redux Thunks can be explained why, what, and how can I use for that, and what are the difference between them.
-ref
-hoc
-Zustand
-redux how can work flow 
+How do you handle a project when you need to implement a new feature in an existing system
+1. Understand the Requirement
+2. Analyze the Existing System
+3. Plan the Implementation
+4. Create a Development Strategy
+5. Start Coding
+6. Testing
+7. Code Review & Feedback
+8. Deploy & Monitor
 

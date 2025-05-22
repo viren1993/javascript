@@ -40,7 +40,7 @@ A: useEffect(() => {}, []) = componentDidMount, // without dependency
 useEffect(() => {}, [dep]) = componentDidUpdate, // with dependency
 return () => {} = componentWillUnmount. // return pass 
 
-### **seContext
+### **Context
 Access context values without prop drilling
 Used with React.createContext
 
@@ -55,8 +55,8 @@ function App() {
 }
 
 function Child() {
-    const theme = useContext(ThemeContext)
-    return <div>Current theme is {theme}</div>;
+  const theme = useContext(ThemeContext)
+  return <div>Current theme is {theme}</div>;
 }
 
 Q: What’s the purpose of useContext?
@@ -154,6 +154,7 @@ function Parent() {
 
 Use **React.memo** to prevent unnecessary re-renders of components.
 Use **useMemo** to prevent unnecessary re-calculations of values.
+use **useCallback** Prevents unnecessary re-creations of the function on every render
 
 ### **useCallback
 Memoizes functions

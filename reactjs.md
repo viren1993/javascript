@@ -319,7 +319,8 @@ root.render(<App />);
 | Render Props             | Pass render functions to child components |
 | Error / Loading Handling | Use conditionals with `if/else`           |
 
+hydration  in react
 
-
-
-
+React hydration is the process that makes server-rendered HTML interactive on the client side. When using server-side rendering (SSR), the server generates the initial HTML of the React application and sends it to the client's browser. This allows for faster initial page loads and better SEO. However, this HTML is static and lacks interactivity. 
+Once the HTML is received by the client, React "hydrates" it by attaching event listeners and initializing the state, effectively turning the static HTML into a fully functional React application. During hydration, React attempts to reuse the existing DOM nodes instead of creating new ones, comparing the server-rendered HTML with the virtual DOM and updating only the necessary parts.
+To initiate hydration, React provides the hydrateRoot method, which is used instead of ReactDOM.render in the client-side entry point when using SSR.
