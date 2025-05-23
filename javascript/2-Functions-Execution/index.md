@@ -32,7 +32,7 @@ var bar = function() {
 
 ## *const and let not Hoisting
 
-Function declarations are fully hoisted (name and body)
+Function declarations are fully hoisted (name and  body)
 Function expressions (like var bar = function() {}) follow var hoisting rules
 
 Temporal Dead Zone (TDZ) for let & const

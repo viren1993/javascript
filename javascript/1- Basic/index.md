@@ -1,6 +1,7 @@
 ### **Data Types in JavaScript**
 
 JavaScript has two main categories of data types: **Primitive** and **Non-Primitive**.
+
 #### **1.1 Primitive Data Types**
 Primitive types are immutable and stored by value.
 1. String - Sequence of characters enclosed in quotes - `"Hello"`, `'World'`, `\`JavaScript``
