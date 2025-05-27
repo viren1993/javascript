@@ -153,6 +153,8 @@ outer();
 Lexical Environment - outer function varibale not show outside 
 innter function ka variable nahi ho ta he upper variable used kar ta he outer function ka 
 
+A lexical environment in JavaScript is a data structure that stores variables and functions defined in the current scope, along with references to all outer scopes. It is also known as the lexical scope
+
 ### **2.3 Strict Mode ("use strict")**
 Strict mode helps catch silent errors and prevents bad practices.
 

@@ -217,3 +217,80 @@ As the user scrolls:
 It unmounts out-of-view elements
 Mounts new visible ones
 
+Describe your proudest frontend project. What was your biggest technical challenge and how did you solve it?
+
+## **What was your role in your company?
+"I was a Senior Frontend Developer. Apart from coding, I handled planning UI components, integrating with APIs, conducting technical interviews, and mentoring juniors. I also contributed to defining frontend architecture — deciding when to use Redux vs. Context API, setting up route guards, dynamic forms, and reusable component libraries.
+
+## **How did you manage a project?
+We followed Agile methodology with 2-week sprints. I worked closely with the product manager and backend team to break down features into tasks.
+
+For example, during a reporting dashboard project, I led the frontend estimation, broke the work into reusable components (following Atomic Design), and tracked progress using Jira. I handled critical parts like chart rendering with Chart.js, filters, and live search, and participated in sprint reviews and demos
+
+## **How do you ensure performance optimization in React apps
+Code splitting using React.lazy
+Memoization (useMemo, React.memo)
+Virtualization (React Virtualized)
+Image optimization, lazy loading
+Avoid unnecessary re-renders
+
+## **What kind of architecture did you follow in your frontend?
+
+Component-based architecture using Atomic Design
+MVVM with hooks as ViewModel
+Redux Toolkit for global state
+Folder separation for components, services, hooks, and pages
+
+## **How do you collaborate with backend (e.g., .NET)?
+
+Understand API contracts (Swagger, Postman)
+Communicate edge cases, expected response formats
+Handle versioned APIs
+Provide mock payloads for parallel development
+
+## **Prepare Your Own STAR Stories
+Use the STAR technique for big project or problem questions:
+
+Situation
+Task
+Action
+Result 
+
+## *Collaboration & communication: “How do you manage cross-functional team efforts?”
+## ** Problem solving & issue resolution: “How do you handle urgent technical issues?”
+## **System Design (Important)
+
+Be ready to design a scalable module or integration system (like SAS).
+Cover: architecture, tech stack, performance/scalability, security, error handling.
+
+## *Why does updating state using useState not always lead to a re-render?
+React shallowly compares the new state with the previous one. If the value hasn’t changed (e.g., primitive equality), React skips the re-render. Also, updates are batched and asynchronous, which can lead to skipped renders if not handled properly.
+
+## **3. How can you prevent unnecessary re-renders when using useState?
+Expected Answer:
+
+Use functional updates: setState(prev => newState) to avoid stale closures.
+Memoize components with React.memo.
+Use useCallback/useMemo to avoid creating new references on each render.
+Structure state properly—avoid excessive granularity or deep object nesting.
+
+## ** What are the performance implications of using multiple useState vs. a single useReducer?
+Expected Answer:
+Multiple useState calls may lead to fragmented state updates and unpredictable batching. useReducer centralizes state logic and can be more performant when dealing with complex state objects or interdependent state variables.
+
+## ** Advanced Debugging: A component updates state but doesn't re-render. What could be the reasons?
+Possible Causes:
+
+Same value passed to setState (e.g., setCount(count)).
+State updated in a non-React event (not batched).
+Improper use of React.memo blocking re-render.
+Parent component not passing updated props due to memoization.
+
+## ** low latency frontend projects 
+1M user mutiple time API call what used batter why reacjs vs next js 
+
+## ** how can handle api call responce 50sec 
+
+
+
+Use the STAR method (Situation, Task, Action, Result) when answering experience questions.

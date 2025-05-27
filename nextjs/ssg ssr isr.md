@@ -115,3 +115,9 @@ Server sends HTML + JSON: The server renders the page as HTML and sends it along
 React loads on the client: React JavaScript bundle runs in the browser.
 Reacts matches the HTML: React “hydrates” the static HTML by attaching event listeners and making it a full React app.
 Now interactive: The page is now fully functional — users can click, navigate, etc.
+
+| Data Fetching | `fetch` option            | Description                                |
+| ------------- | ------------------------- | ------------------------------------------ |
+| Static        | `cache: 'force-cache'`    | Same as `getStaticProps`                   |
+| Dynamic       | `cache: 'no-store'`       | Same as `getServerSideProps`               |
+| ISR           | `next: { revalidate: x }` | Same as `getStaticProps` with `revalidate` |

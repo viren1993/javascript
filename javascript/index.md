@@ -100,7 +100,7 @@
 - Abstraction (Simulated via `throw` in parent class)
 
 ## 9. Design Patterns
-
+- Atomic Design
 - Factory Pattern
 - Singleton Pattern
 - Observer Pattern
@@ -122,6 +122,14 @@
     - Capturing: Events propagate from parent → child
 - Event Delegation
 - Web Storage (`localStorage`, `sessionStorage`)
+  | Feature           | `localStorage`                         | `sessionStorage`                     |
+  | ----------------- | -------------------------------------- | ------------------------------------ |
+  | **Lifetime**      | Until manually cleared                 | Until the browser tab is closed      |
+  | **Scope**         | Shared across **tabs** and **windows** | Specific to the **current tab** only |
+  | **Persistence**   | Persists across sessions               | Cleared when tab or window is closed |
+  | **Storage Limit** | \~5-10 MB                              | \~5 MB                               |
+  | **API Access**    | `window.localStorage`                  | `window.sessionStorage`              |
+
 - Fetch API & AJAX
 - WebSockets
 WebSockets provide a full-duplex, bidirectional communication channel over a single, long-lived TCP connection between client and server.
@@ -224,16 +232,6 @@ Run tests automatically or during CI/CD
 4. Detached DOM Elements:
    Problem: Removing elements from the DOM but keeping references in JavaScript.
    Solution: Manually nullify references when removing elements.
-
-5. DOM & Browser APIs
-
-6. Event Handling
-   Bubbling & Capturing
-
-- Bubbling: Events propagate from child → parent.
-- Capturing: Events propagate from parent → child.
-
-2. Web Storage (localStorage & sessionStorage).
 
 3. Fetch API & AJAX
 
