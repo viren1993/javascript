@@ -76,3 +76,39 @@ Each child should have a unique key prop
 Q: Why is the key prop important in lists?
 A: Keys help React identify which items have changed, are added, or removed. It optimizes re-renders.
 
+🧠 2. How React Runs Internally (Step-by-Step)
+➤ Step 1: Browser loads index.html
+<!-- public/index.html -->
+<body>
+  <div id="root"></div>
+</body>
+
+
+This is the only HTML file.
+React will inject all your components inside this <div id="root">.
+
+➤ Step 2: ReactDOM.createRoot() runs
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+It attaches the virtual DOM system to the real DOM’s #root div.
+
+Step 3: root.render(<App />) renders the first React component
+<App /> is your root React component.
+
+React calls App() and recursively renders everything inside it.
+
+function App() {
+  return (
+    <div>
+      <Navbar />
+      <MainPage />
+    </div>
+  );
+}
+
+✅ Bonus: Static void main() Equivalent in React?
+// main.js / index.js
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+
+

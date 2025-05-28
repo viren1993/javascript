@@ -290,7 +290,7 @@ Parent component not passing updated props due to memoization.
 1M user mutiple time API call what used batter why reacjs vs next js 
 
 ## ** how can handle api call responce 50sec 
-
+## * Good understanding of SDLC and agile methodologies 
 
 
 Use the STAR method (Situation, Task, Action, Result) when answering experience questions.
